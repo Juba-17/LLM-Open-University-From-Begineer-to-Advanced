@@ -11,7 +11,8 @@ A complete roadmap to master LLMs from absolute beginners to advanced
 * [Best Resources to Learn & Understand Evaluating LLMs](https://pub.towardsai.net/best-resources-to-learn-understand-evaluating-llms-4610ee5dc5c1?sk=2e53e253dbf2890f0cc94c0cfe7c64c0)
 * [Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
 * [Top Resources to Learn & Understand RLHF](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
-*   
+* [How to Stay Updated with LLM Research & Industry News?]()
+
 # LLMs In Production # 
 * [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
 * [Top Resources to Master Vector Databases & Building a Vector Storage](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
