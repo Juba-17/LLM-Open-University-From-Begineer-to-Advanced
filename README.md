@@ -10,9 +10,8 @@ A complete roadmap to master LLMs from absolute beginners to advanced
 * [14 Free Large Language Models Fine-Tuning Notebooks](https://levelup.gitconnected.com/14-free-large-language-models-fine-tuning-notebooks-532055717cb7?sk=ef3212821235db70871d72c86e179b07)
 * [Best Resources to Learn & Understand Evaluating LLMs](https://pub.towardsai.net/best-resources-to-learn-understand-evaluating-llms-4610ee5dc5c1?sk=2e53e253dbf2890f0cc94c0cfe7c64c0)
 * [Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
-* [Top Resources to Learn & Understand LLM Alignment]()
-* [Top Resources to Learn & Understand RLHF](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
-* [How to Stay Updated with LLM Research & Industry News?]()
+* [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
+* [How to Stay Updated with LLM Research & Industry News?](https://medium.com/gitconnected/how-to-stay-updated-with-llm-research-industry-news-c1d60e341bad?sk=99998b76402b2555c2bf998dd186ba0c)
 
 # LLMs In Production # 
 * [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
