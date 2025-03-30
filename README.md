@@ -1,5 +1,5 @@
 # LLM-Roadmap-From-Beginner-to-Advanced
-A complete roadmap to master LLMs from absolute beginners to advanced 
+A complete roadmap to master LLMs for absolute beginners to advanced 
 
 # LLM Basics #
 * [Top Large Langauge Models Practical & Theoretical Courses](https://levelup.gitconnected.com/5-top-large-langauge-models-practical-theoretical-courses-43e9f95da06e?sk=992bbfe34e923f3e3ebc9248eb5576c2)
