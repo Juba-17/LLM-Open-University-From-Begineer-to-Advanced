@@ -33,6 +33,7 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 ## Part II: Building & Training LLM From Scratch ##
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/5f408c67-cefd-4fac-b395-20ceb3db72da" />
 
+
 The second section guides you through the complete process of training and fine-tuning a Large Language Model (LLM) from scratch, covering every crucial step from data preparation to ensuring optimal model performance. This section begins with the best resources for building datasets to train LLMs, providing comprehensive guidance on collecting, cleaning, and organizing data for effective model training.
 
 Next, you will delve into mastering the fine-tuning process with top learning resources, exploring techniques and strategies to adapt pre-trained models to specific tasks or domains. The section also includes 14 free LLM fine-tuning notebooks, offering practical, hands-on experience with fine-tuning processes.
@@ -41,6 +42,59 @@ Evaluating LLMs is a critical aspect covered in this section, with the best reso
 Understanding Reinforcement Learning from Human Feedback (RLHF) and LLM alignment is another key component, with top resources provided to deepen your knowledge in aligning models with human values and preferences. Finally, this section offers insights on how to stay updated with the latest LLM research and industry news, ensuring you remain at the forefront of advancements in the field.
 
 By the end of this section, you will have a comprehensive understanding of how to build, train, fine-tune, evaluate, and optimize LLMs, equipped with the knowledge and practical skills to develop high-performing models tailored to specific needs.
+
+
+### [1. Best Resources on Building Datasets to Train LLMs](https://open.substack.com/pub/youssefh/p/best-resources-on-building-datasets?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+Large language models (LLMs), such as OpenAI’s GPT series and Google’s Bard, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGLM, training an LLM is no longer the exclusive domain of resource-rich companies.
+Training LLMs by small organizations or individuals has become an important interest in the open-source community, with some notable works including Alpaca, Vicuna, and Luotuo.
+
+In addition to large model frameworks, large-scale and high-quality training corpora are also essential for training large language models. Currently, relevant open-source corpora in the community are still scattered. Therefore, this section aims to introduce and collect high-quality resources to learn how to build training datasets for LLM applications.
+
+#### 1.1. Dataset Hubs #### 
+
+<img width="875" height="438" alt="image" src="https://github.com/user-attachments/assets/fcefc91c-aedc-426c-be1f-787d2694ec7f" />
+
+
+LLM datasets are extensive sets of text used to train large language models. These datasets typically contain texts in multiple languages, topics, and styles, used to train models to predict and generate text related to given input text. They are commonly employed for various natural language processing tasks like machine translation, summarization, question-answering systems, and more. The dataset hubs contain open-source datasets that are pivotal in training or fine-tuning many LLMs that ML engineers use today.
+
+**Resources:** 
+
+1. [LLMDataHub: Awesome Datasets for LLM Training](https://github.com/Zjh-819/LLMDataHub)
+2. [How to Use HuggingFace’s Datasets](https://www.youtube.com/watch?v=GhGUZrcB-WM)
+3. [Open-Sourced Training Datasets for Large Language Models (LLMs)](https://kili-technology.com/blog/9-open-sourced-datasets-for-training-large-language-models)
+
+
+#### 1.2. Building an Instruction Dataset #####
+
+<img width="875" height="438" alt="image" src="https://github.com/user-attachments/assets/9c0902ae-c071-4765-8f3a-8a1090a982df" />
+
+
+Training a chatbot LLM that can follow human instructions effectively requires access to high-quality datasets that cover a range of conversation domains and styles. In this section, we provide a curated collection of resource datasets specifically designed for building an instruction dataset for instruction-tuning LLM.
+
+**Resources:**
+
+1. [How to Fine-Tune an LLM Part 1: Preparing a Dataset for Instruction Tuning](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2)
+2. [How I created an instruction dataset using GPT 3.5 to fine-tune Llama 2 for news classification](https://medium.com/@kshitiz.sahay26/how-i-created-an-instruction-dataset-using-gpt-3-5-to-fine-tune-llama-2-for-news-classification-ed02fe41c81f)
+3. [Dataset creation for fine-tuning LLM](https://colab.research.google.com/drive/1GH8PW9-zAe4cXEZyOIE-T9uHXblIldAg?usp=sharing)
+4. [How to Generate Instruction Datasets from Any Documents for LLM Fine-Tuning](https://towardsdatascience.com/how-to-generate-instruction-datasets-from-any-documents-for-llm-fine-tuning-abb319a05d91/)
+
+
+
+#### 1.3. Datasets Preparing & Processing ####
+
+<img width="850" height="776" alt="image" src="https://github.com/user-attachments/assets/e340fdd2-c2e6-40b5-9208-5307de1bcd21" />
+
+
+Enhancing the performance of the LLM and RAG systems depends on efficiently processing diverse unstructured data sources. In this section, you’ll learn techniques for representing all sorts of unstructured data, like text, images, and tables, from many different sources and implement them to extend your LLM RAG pipeline to include Excel, Word, PowerPoint, PDF, and EPUB files.
+
+**Resources:**
+
+1. [How to Build an Effective Data Collection and Processing Strategy for LLM Training](https://www.turing.com/resources/building-effective-data-strategy-for-llm-training)
+2. [Preprocessing Unstructured Data for LLM Applications](https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/)
+
+
+
 
 * [Best Resources On Building Datasets to Trian LLMs](https://levelup.gitconnected.com/best-resources-on-building-datasets-to-trian-llms-f6c6e02fc375?sk=342b0b4f9587b2db3af5fe86c90e519e)
 * [Mastering Large Language Model (LLM) Fine-Tuning: Top Learning Resources](https://pub.towardsai.net/mastering-large-language-model-llm-fine-tuning-top-learning-resources-dcef012256fd?sk=54ca7be29591c08bd12b6161b534f859)
