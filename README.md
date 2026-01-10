@@ -30,7 +30,18 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 5. [H2O.ai LLM Learning Path](https://www.youtube.com/playlist?list=PLNtMya54qvOHQHDpUDtZytwEV2Miali9l)
 
 --------------------------------------------------
-# Part II: Building & Training LLM From Scratch #
+## Part II: Building & Training LLM From Scratch ##
+<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/5f408c67-cefd-4fac-b395-20ceb3db72da" />
+
+The second section guides you through the complete process of training and fine-tuning a Large Language Model (LLM) from scratch, covering every crucial step from data preparation to ensuring optimal model performance. This section begins with the best resources for building datasets to train LLMs, providing comprehensive guidance on collecting, cleaning, and organizing data for effective model training.
+
+Next, you will delve into mastering the fine-tuning process with top learning resources, exploring techniques and strategies to adapt pre-trained models to specific tasks or domains. The section also includes 14 free LLM fine-tuning notebooks, offering practical, hands-on experience with fine-tuning processes.
+Evaluating LLMs is a critical aspect covered in this section, with the best resources to learn and understand various evaluation metrics and methodologies, ensuring your model's performance meets the desired standards. Additionally, you will gain an overview of LLM quantization techniques, which help in optimizing models for efficiency and speed, along with resources for mastering each technique.
+
+Understanding Reinforcement Learning from Human Feedback (RLHF) and LLM alignment is another key component, with top resources provided to deepen your knowledge in aligning models with human values and preferences. Finally, this section offers insights on how to stay updated with the latest LLM research and industry news, ensuring you remain at the forefront of advancements in the field.
+
+By the end of this section, you will have a comprehensive understanding of how to build, train, fine-tune, evaluate, and optimize LLMs, equipped with the knowledge and practical skills to develop high-performing models tailored to specific needs.
+
 * [Best Resources On Building Datasets to Trian LLMs](https://levelup.gitconnected.com/best-resources-on-building-datasets-to-trian-llms-f6c6e02fc375?sk=342b0b4f9587b2db3af5fe86c90e519e)
 * [Mastering Large Language Model (LLM) Fine-Tuning: Top Learning Resources](https://pub.towardsai.net/mastering-large-language-model-llm-fine-tuning-top-learning-resources-dcef012256fd?sk=54ca7be29591c08bd12b6161b534f859)
 * [14 Free Large Language Models Fine-Tuning Notebooks](https://levelup.gitconnected.com/14-free-large-language-models-fine-tuning-notebooks-532055717cb7?sk=ef3212821235db70871d72c86e179b07)
