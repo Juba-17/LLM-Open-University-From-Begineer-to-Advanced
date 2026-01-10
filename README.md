@@ -2,7 +2,6 @@
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
 ## Part I: LLM Basics & Architecture ##
-* [Top Large Langauge Models Practical & Theoretical Courses](https://levelup.gitconnected.com/5-top-large-langauge-models-practical-theoretical-courses-43e9f95da06e?sk=992bbfe34e923f3e3ebc9248eb5576c2)
 
 In the first section, you'll grasp the foundational concepts of Large Language Models (LLMs) and their core architectures, focusing on transformers, attention mechanisms, and tokenization.
 Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Alammar's "The Illustrated Transformer" and "The Illustrated GPT-2," and 3Blue1Brown's "Visual Intro to Transformers." You'll also explore "nanoGPT" by Karpathy, "Attention? Attention!" by Lilian Weng, various decoding strategies, Karpathy's "Intro to Large Language Models," and top practical and theoretical courses on LLMs. This section provides a blend of theoretical and useful insights, preparing you for the next sections.
@@ -23,12 +22,12 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 
 ### 3. Courses: ###
 
-1. Generative AI with Large Language Models
-2. Advanced LLM Application Building
-3. Full Stack LLM Bootcamp
-4. Training & Fine-Tuning LLMs for Production
-5. H2O.ai LLM Learning Path
+1. [Generative AI with Large Language Models](https://www.coursera.org/learn/generative-ai-with-llms?utm_campaign=WebsiteCoursesGAIA&utm_medium=institutions&utm_source=deeplearning-ai#modules)
+3. [Full Stack LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
+4. [Training & Fine-Tuning LLMs for Production](https://learn.activeloop.ai/courses/llms)
+5. [H2O.ai LLM Learning Path](https://www.youtube.com/playlist?list=PLNtMya54qvOHQHDpUDtZytwEV2Miali9l)
 
+--------------------------------------------------
 # Part II: Building & Training LLM From Scratch #
 * [Best Resources On Building Datasets to Trian LLMs](https://levelup.gitconnected.com/best-resources-on-building-datasets-to-trian-llms-f6c6e02fc375?sk=342b0b4f9587b2db3af5fe86c90e519e)
 * [Mastering Large Language Model (LLM) Fine-Tuning: Top Learning Resources](https://pub.towardsai.net/mastering-large-language-model-llm-fine-tuning-top-learning-resources-dcef012256fd?sk=54ca7be29591c08bd12b6161b534f859)
