@@ -2,6 +2,8 @@
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
 ## Part I: LLM Basics & Architecture ##
+<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/9e8cd3bc-86d6-439d-97eb-2d904c09fc7c" />
+
 
 In the first section, you'll grasp the foundational concepts of Large Language Models (LLMs) and their core architectures, focusing on transformers, attention mechanisms, and tokenization.
 Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Alammar's "The Illustrated Transformer" and "The Illustrated GPT-2," and 3Blue1Brown's "Visual Intro to Transformers." You'll also explore "nanoGPT" by Karpathy, "Attention? Attention!" by Lilian Weng, various decoding strategies, Karpathy's "Intro to Large Language Models," and top practical and theoretical courses on LLMs. This section provides a blend of theoretical and useful insights, preparing you for the next sections.
