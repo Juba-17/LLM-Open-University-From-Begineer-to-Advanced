@@ -16,10 +16,10 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 
 ### 2. YouTube Videos: ###
 
-1. Let's build the GPT Tokenizer by Andrej Karpathy
-2. nanoGPT by Andrej Karpathy
-3. Intro to Large Language Models by Andrej Karpathy
-4. Visual Intro to Transformers by 3Blue1Brown
+1. [Let's build the GPT Tokenizer by Andrej Karpathy](https://www.youtube.com/watch?v=zduSFxRajkE)
+2. [nanoGPT by Andrej Karpathy](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+3. [Intro to Large Language Models by Andrej Karpathy](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+4. [Visual Intro to Transformers by 3Blue1Brown](https://www.youtube.com/watch?v=wjZofJX0v4M&t=187s)
 
 ### 3. Courses: ###
 
