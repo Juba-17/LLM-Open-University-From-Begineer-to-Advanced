@@ -10,9 +10,9 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 ### 1. Articles: ###
 
 [1. The Illustrated Transformer by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
-2. The Illustrated GPT-2 by Jay Alammar]
-3. 3. Attention? Attention! by Lilian Weng
-4. Decoding Strategies in LLMs by Maxime Lebonne
+[2. The Illustrated GPT-2 by Jay Alammar](https://jalammar.github.io/illustrated-gpt2/)
+[3. Attention? Attention! by Lilian Weng](https://lilianweng.github.io/posts/2018-06-24-attention/)
+[4. Decoding Strategies in LLMs by Maxime Lebonne](https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html)
 
 ### 2. YouTube Videos: ###
 
