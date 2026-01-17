@@ -115,7 +115,7 @@ You will also learn the different fine-tuning techniques and applications to sho
 3. [Finetuning Large Language Models](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
 
 
-### 2.2. Parameter Efficient Fine-Tuning (PEFT) ###
+#### 2.2. Parameter Efficient Fine-Tuning (PEFT) ####
 
 <img width="875" height="583" alt="image" src="https://github.com/user-attachments/assets/581c50e7-a909-4672-b343-86efc14f14c7" />
 
@@ -136,7 +136,7 @@ These learning resources will introduce you to the PEFT method in detail, explor
 5. [Fine-Tuning Mistral-7B with LoRA (Low-Rank Adaptation)](https://www.youtube.com/watch?v=kV8yXIUC5_4)
 6. [Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments](https://lightning.ai/pages/community/lora-insights/)
 
-### 2.3. Practical Fine Tuning ###
+#### 2.3. Practical Fine Tuning ####
 
 Fine-tuning large language models (LLMs) has become a crucial skill for NLP practitioners, enabling customization and improved performance across various tasks. This article introduces 14 free Colab notebooks that provide hands-on experience in fine-tuning LLMs.
 From efficient training methodologies like LoRA and Hugging Face to specialized models such as Llama, Guanaco, and Falcon, each notebook explores unique aspects of the fine-tuning process. Advanced techniques like PEFT Finetune, Bloom-560m-tagger, and Meta_OPT-6–1b_Model offer insights into state-of-the-art approaches.
@@ -161,7 +161,74 @@ This section provides a roadmap to navigate these notebooks, making it an essent
 14. [Finetuning Mistral-7b using Autotrain Advanced](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/14.Finetuning_Mistral_7b_Using_AutoTrain.ipynb)
 
 
-* [Best Resources to Learn & Understand Evaluating LLMs](https://pub.towardsai.net/best-resources-to-learn-understand-evaluating-llms-4610ee5dc5c1?sk=2e53e253dbf2890f0cc94c0cfe7c64c0)
+### [3. Best Resources to Learn & Understand Evaluating LLMs](https://open.substack.com/pub/youssefh/p/best-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)  ###
+As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level but also at the societal level for a better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives.
+This section presents a comprehensive set of resources that will help you understand LLM evaluation, starting from what to evaluate, where to evaluate, and how to evaluate.
+
+#### 3.1. Overview of LLM Evaluation Methods ####
+
+With the rapid advancement and integration of large language models (LLMs) in business workflows, ensuring these models are reliable and efficient has become critical. This need underscores the significance of understanding and deploying robust evaluation and benchmarking techniques for successful model implementation.
+
+LLMs are evaluated and benchmarked on various tasks such as language generation, translation, reasoning, summarization, question-answering, and relevance. A representative set of evaluations helps build well-rounded, robust, and secure models across different dimensions and detects any regressions over a period of time.
+
+In this section, we explore the nuances of evaluation metrics, the significance of LLM benchmarks in quantifying model performance, and the challenges associated with building standardized metrics. We also touch upon the latest trends in benchmarking and provide a comprehensive guide on building effective evaluation protocols.
+
+**Resources:**
+1. [Understanding LLM Evaluation and Benchmarks: A Complete Guide](https://www.turing.com/resources/understanding-llm-evaluation-and-benchmarks)
+2. [Decoding LLM Performance: A Guide to Evaluating LLM Applications](https://amagastya.medium.com/decoding-llm-performance-a-guide-to-evaluating-llm-applications-e8d7939cafce)
+3. [A Survey on Evaluation of LLMs](https://arxiv.org/abs/2307.03109)
+4. [Evaluating and Debugging Generative AI](https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/)
+
+
+#### 3.2. LLM Benchmarking ####
+
+It is evident that merely training LLMs is not sufficient. Thus, the question arises: How can we confidently assert that LLM ‘A’ (with ’n’ number of parameters) is superior to LLM ‘B’ (with ‘m’ parameters)? Or is LLM ‘A’ more reliable than LLM ‘B’ based on quantifiable, reasonable observations? There needs to be a standard to benchmark LLMs, ensuring they are ethically reliable and factually performant.
+
+In this section, you will learn about the current evaluation paradigm and understand the terminologies of LLM benchmarking/evaluation. You will also learn about some prominent research on evaluating benchmarking and comparing LLMs on various tasks or scenarios.
+
+**Resources:**
+1. [The Definitive Guide to LLM Benchmarking](https://www.confident-ai.com/blog/the-current-state-of-benchmarking-llms)
+
+#### 3.3. LLM Evaluation Methods ####
+
+In the era of artificial intelligence and machine learning, evaluating the performance of models is crucial for their development and improvement. Large Language Models (LLMs) have shown incredible capabilities in generating human-like text, and their application has been extended to code generation.
+In this section, you will explore different LLM evaluation methods for different use cases. Starting with traditional ones, such as BLEU, to code generation evaluation metrics, such as HumanEval.
+
+**Resources:**
+1. [BLEU at your own risk by Rachael Tatman](https://medium.com/data-science/evaluating-text-output-in-nlp-bleu-at-your-own-risk-e8609665a213)
+2. [Perplexity of fixed-length models](https://huggingface.co/docs/transformers/en/perplexity)
+3. [HumanEval: Decoding the LLM Benchmark for Code Generation](https://deepgram.com/learn/humaneval-llm-benchmark)
+
+
+####  3.4. Evaluating Chatbots ####
+
+Following the great success of ChatGPT, there has been a proliferation of open-source large language models that are finetuned to follow instructions. These models are capable of providing valuable assistance in response to users’ questions/prompts. Notable examples include Alpaca and Vicuna, based on LLaMA, and OpenAssistant and Dolly, based on Pythia.
+
+Despite the constant release of new models every week, the community faces a challenge in benchmarking these models effectively. Benchmarking LLM assistants is extremely challenging because the problems can be open-ended, and it is very difficult to write a program to automatically evaluate the response quality. In this case, we typically have to resort to human evaluation based on pairwise comparison.
+In this section, you will learn about the Elo rating system, which is a widely used rating system in chess and other competitive games. The Elo rating system is promising to provide the desired property mentioned above.
+
+**Resources:**
+1. [Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings](https://lmsys.org/blog/2023-05-03-arena/)
+
+#### 3.5. Evaluating RAG Applications ####
+
+Retrieval Augmented Generation (RAG) stands out as one of the most popular use cases of large language models (LLMs). This method facilitates the integration of an LLM with an organization’s proprietary data. Therefore it is important to evaluate and track experimenting to improve your RAG pipeline’s performance. Also, to understand the RAG triad: Context Relevance, Groundedness, and Answer Relevance, which are methods to evaluate the relevance and truthfulness of your LLM’s response.
+
+**Resources:**
+1. [Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+
+#### 3.6. Automated Testing for LLMs ####
+
+When building applications with generative AI, model behavior is less predictable than traditional software. That’s why systematic testing can make an even bigger difference in saving you development time and cost.
+Continuous integration, a key part of LLMOps, is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix.
+With a robust automated testing pipeline, you’ll be able to isolate bugs before they accumulate — when they’re easier and less costly to fix. Automated testing lets your team focus on building new features so that you can iterate and ship products faster.
+
+**Resources:**
+1. [Automated Testing for LLMOps](https://www.deeplearning.ai/short-courses/automated-testing-llmops/)
+
+
+
+
 * [Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
 * [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
 * [How to Stay Updated with LLM Research & Industry News?](https://medium.com/gitconnected/how-to-stay-updated-with-llm-research-industry-news-c1d60e341bad?sk=99998b76402b2555c2bf998dd186ba0c)
