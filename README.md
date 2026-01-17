@@ -79,12 +79,9 @@ Training a chatbot LLM that can follow human instructions effectively requires a
 3. [Dataset creation for fine-tuning LLM](https://colab.research.google.com/drive/1GH8PW9-zAe4cXEZyOIE-T9uHXblIldAg?usp=sharing)
 4. [How to Generate Instruction Datasets from Any Documents for LLM Fine-Tuning](https://towardsdatascience.com/how-to-generate-instruction-datasets-from-any-documents-for-llm-fine-tuning-abb319a05d91/)
 
-
-
 #### 1.3. Datasets Preparing & Processing ####
 
 <img width="850" height="776" alt="image" src="https://github.com/user-attachments/assets/e340fdd2-c2e6-40b5-9208-5307de1bcd21" />
-
 
 Enhancing the performance of the LLM and RAG systems depends on efficiently processing diverse unstructured data sources. In this section, you’ll learn techniques for representing all sorts of unstructured data, like text, images, and tables, from many different sources and implement them to extend your LLM RAG pipeline to include Excel, Word, PowerPoint, PDF, and EPUB files.
 
@@ -94,11 +91,76 @@ Enhancing the performance of the LLM and RAG systems depends on efficiently proc
 2. [Preprocessing Unstructured Data for LLM Applications](https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/)
 
 
+### [2. Practical Guide to LLM Fine-Tuning ](https://open.substack.com/pub/youssefh/p/mastering-large-language-model-llm?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+Large language models (LLMs) have transformed the field of natural language processing with their advanced capabilities and highly sophisticated solutions.
+These models, trained on massive datasets of text, perform a wide range of tasks, including text generation, translation, summarization, and question-answering. But while LLMs are powerful tools, they’re often incompatible with specific tasks or domains.
+Fine-tuning allows users to adapt pre-trained LLMs to more specialized tasks. By fine-tuning a model on a small dataset of task-specific data, you can improve its performance on that task while preserving its general language knowledge.
+In this section, we will provide the best learning resource to learn what fine-tuning is, how it works, and how fine-tuning LLMs can significantly improve model performance, reduce training costs, and enable more accurate and context-specific results.
+Also, these resources will cover different fine-tuning techniques and applications to show how fine-tuning has become a critical component of LLM-powered solutions.
+
+#### 2.1. Introduction to LLM Fine-Tuning ####
+
+<img width="875" height="492" alt="image" src="https://github.com/user-attachments/assets/c81deeee-bd19-46b0-b31d-622630bed6bb" />
+
+LLMs are trained on massive datasets of text and can perform a wide range of tasks, including text generation, translation, summarization, and question-answering. But while LLMs are powerful tools, they’re often incompatible with specific tasks or domains.
+Fine-tuning allows users to adapt pre-trained LLMs to more specialized tasks. By fine-tuning a model on a small dataset of task-specific data, you can improve its performance on that task while preserving its general language knowledge. For example, a Google study found that fine-tuning a pre-trained LLM for sentiment analysis improved its accuracy by 10 percent.
+
+In this section, you will explore how fine-tuning LLMs can significantly improve model performance, reduce training costs, and enable more accurate and context-specific results.
+You will also learn the different fine-tuning techniques and applications to show how fine-tuning has become a critical component of LLM-powered solutions.
+
+**Learning Resources:**
+1. [The Novice’s LLM Training Guide](https://rentry.org/llm-training)
+2. [Fine-Tuning LLMs: Overview, Methods, and Best Practices](https://www.turing.com/resources/finetuning-large-language-models)
+3. [Finetuning Large Language Models](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
 
 
-* [Best Resources On Building Datasets to Trian LLMs](https://levelup.gitconnected.com/best-resources-on-building-datasets-to-trian-llms-f6c6e02fc375?sk=342b0b4f9587b2db3af5fe86c90e519e)
-* [Mastering Large Language Model (LLM) Fine-Tuning: Top Learning Resources](https://pub.towardsai.net/mastering-large-language-model-llm-fine-tuning-top-learning-resources-dcef012256fd?sk=54ca7be29591c08bd12b6161b534f859)
-* [14 Free Large Language Models Fine-Tuning Notebooks](https://levelup.gitconnected.com/14-free-large-language-models-fine-tuning-notebooks-532055717cb7?sk=ef3212821235db70871d72c86e179b07)
+### 2.2. Parameter Efficient Fine-Tuning (PEFT) ###
+
+<img width="875" height="583" alt="image" src="https://github.com/user-attachments/assets/581c50e7-a909-4672-b343-86efc14f14c7" />
+
+Transfer learning plays a crucial role in the development of large language models such as GPT-3 and BERT. It is an ML technique in which a model trained on a certain task is used as a starting point for a distinct but similar task.
+The idea behind transfer learning is that the knowledge gained by a model from solving one problem can be leveraged to help solve another problem. However, with the parameter count of large language models reaching trillions, fine-tuning the entire model has become computationally expensive and often impractical.
+
+In response, the focus has shifted towards in-context learning, where the model is provided with prompts for a given task and returns in-context updates. However, inefficiencies like processing the prompt each time the model makes a prediction and its poor performance at times make it a less favorable choice.
+
+This is where Parameter-efficient Fine-tuning (PEFT) comes in as an alternative paradigm to prompting. PEFT aims to fine-tune only a small subset of the model’s parameters, achieving comparable performance to full fine-tuning while significantly reducing computational requirements.
+These learning resources will introduce you to the PEFT method in detail, exploring its benefits and how it has become an efficient way to fine-tune LLMs on downstream tasks. Also, it will discuss different methods of the PEFT with practical examples of each.
+
+**Learning Resources:**
+
+1. [Optimizing Pre-trained Models: A Guide to Parameter-Efficient Fine-Tuning (PEFT)](https://www.leewayhertz.com/parameter-efficient-fine-tuning/)
+2. [QLoRA paper explained (Efficient Finetuning of Quantized LLMs)](https://www.youtube.com/watch?v=6l8GZDPbFn8)
+3. [QLoRA — How to Fine-tune an LLM on a Single GPU (w/ Python Code)](https://www.youtube.com/watch?v=XpoKB3usmKc&t=2s)
+4. [LoRA Fine-tuning & Hyperparameters Explained (in Plain English)](https://www.entrypointai.com/blog/lora-fine-tuning/)
+5. [Fine-Tuning Mistral-7B with LoRA (Low-Rank Adaptation)](https://www.youtube.com/watch?v=kV8yXIUC5_4)
+6. [Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments](https://lightning.ai/pages/community/lora-insights/)
+
+### 2.3. Practical Fine Tuning ###
+
+Fine-tuning large language models (LLMs) has become a crucial skill for NLP practitioners, enabling customization and improved performance across various tasks. This article introduces 14 free Colab notebooks that provide hands-on experience in fine-tuning LLMs.
+From efficient training methodologies like LoRA and Hugging Face to specialized models such as Llama, Guanaco, and Falcon, each notebook explores unique aspects of the fine-tuning process. Advanced techniques like PEFT Finetune, Bloom-560m-tagger, and Meta_OPT-6–1b_Model offer insights into state-of-the-art approaches.
+
+Whether you’re interested in GPT-Neo-X, MPT-Instruct-30B, or Microsoft Phi 15B, these notebooks cover a diverse range of LLMs, making them suitable for both beginners and experienced practitioners. Delve into custom dataset training, self-supervised methods, and RLHF techniques, gaining a comprehensive understanding of fine-tuning.
+
+This section provides a roadmap to navigate these notebooks, making it an essential read for anyone keen on mastering the art of fine-tuning large language models.
+
+1. [Fine-Tuning Large Language Models with LoRA and Hugging Face](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/1.Efficiently_train_Large_Language_Models_with_LoRA_and_Hugging_Face.ipynb)
+2. [Fine-Tuning Llama 2 Model in a Colab Notebook](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/2.Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.ipynb)
+3. [Guanaco Chatbot Demo with LLaMA-7B Model](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/3.Guanaco%20Chatbot%20Demo%20with%20LLaMA-7B%20Model.ipynb#scrollTo=cJMiQrtRuNqH)
+4. [PEFT Finetune-Bloom-560m-tagger](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/4.PEFT%20Finetune-Bloom-560m-tagger.ipynb#scrollTo=hsD1VKqeA62Z)
+5. [Fine-Tuning Meta_OPT-6–1b Model with bnb_peft](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/5.Finetune_Meta_OPT-6-1b_Model_bnb_peft.ipynb#scrollTo=WE5GJ6s7y0Xo)
+6. [Fine-Tuning Falcon-7b with BNB Self-Supervised Training](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/6.Finetune%20Falcon-7b%20with%20BNB%20Self%20Supervised%20Training.ipynb#scrollTo=C2EgqEPDQ8v6)
+7. [Fine-Tuning LLaMa2 with QLoRa](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/7.FineTune_LLAMA2_with_QLORA.ipynb#scrollTo=imgHssi6BF0T)
+8. [Stable Vicuna 1 3B-8bit in Google Colab](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/8.Stable_Vicuna13B_8bit_in_Colab.ipynb#scrollTo=EUGsc-8IpfEb)
+9. [GPT-Neo-X 20B bnb2bit Training](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/9.GPT-neo-x-20B-bnb_4bit_training.ipynb#scrollTo=XIyP_0r6zuVc)
+10. [MPT-Instruct-30B Model Training](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/10.MPT_Instruct_30B.ipynb#scrollTo=SsCR0FZHL1pg)
+11. [RLHF Training for Custom Dataset for Any Model](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/11_RLHF_Training_for_CustomDataset_for_AnyModel.ipynb#scrollTo=hgj2hw_WQecA)
+12. [Fine-Tuning Microsoft Phi 1.5 On Custom Dataset](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/12_Fine_tuning_Microsoft_Phi_1_5b_on_custom_dataset(dialogstudio).ipynb#scrollTo=rpf1Z0k4RJM6)
+13. [Fine-Tuning OpenAI GPT3.5 Turbo](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/13.Fine_tuning_OpenAI_GPT_3_5_turbo.ipynb#scrollTo=AJagDsTsIn9z)
+14. [Finetuning Mistral-7b using Autotrain Advanced](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/14.Finetuning_Mistral_7b_Using_AutoTrain.ipynb)
+
+
 * [Best Resources to Learn & Understand Evaluating LLMs](https://pub.towardsai.net/best-resources-to-learn-understand-evaluating-llms-4610ee5dc5c1?sk=2e53e253dbf2890f0cc94c0cfe7c64c0)
 * [Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
 * [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
