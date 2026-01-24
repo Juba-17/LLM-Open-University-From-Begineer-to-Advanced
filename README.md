@@ -1,6 +1,17 @@
 # LLM-Roadmap-From-Beginner-to-Advanced
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
+Large Language Models (LLMs) have transformed the landscape of AI, driving advancements in natural language processing and generating human-like text with unprecedented accuracy. It is now becoming an essential skill if you are joining the AI market, and most of the open positions will require LLM-related skills. Whether you're a beginner eager to dip your toes into the fascinating world of LLMs or an advanced practitioner aiming to refine your skills, this comprehensive roadmap will guide you through every stage of mastering these powerful models.
+
+This roadmap is divided into four comprehensive sections. In the first section, you will grasp the foundational concepts of Large Language Models (LLMs) and delve into their core architectures, learning about key components like transformers, attention mechanisms, and tokenization.
+The second section guides you through the complete process of training and fine-tuning an LLM from scratch, starting with data preparation and moving on to training, fine-tuning, evaluating, and aligning the model for optimal performance.
+
+In the third section, you'll focus on developing real-world applications using LLMs, beginning with prompt engineering and progressing to building Retrieval-Augmented Generation (RAG) applications, as well as learning best practices for deploying and optimizing LLMs in production environments.
+The final section is dedicated to helping you build your portfolio, offering ten project ideas and ten guided projects to provide a solid starting point for showcasing your expertise to potential employers or clients.
+
+Each section builds upon the previous one, ensuring a smooth and logical progression from basic concepts to advanced applications, ultimately equipping you with the essential knowledge and practical skills needed to master LLMs and leverage their capabilities effectively.
+
+
 ## Part I: LLM Basics & Architecture ##
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/9e8cd3bc-86d6-439d-97eb-2d904c09fc7c" />
 
