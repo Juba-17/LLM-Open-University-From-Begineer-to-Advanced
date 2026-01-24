@@ -237,10 +237,100 @@ With a robust automated testing pipeline, you’ll be able to isolate bugs befor
 **Resources:**
 1. [Automated Testing for LLMOps](https://www.deeplearning.ai/short-courses/automated-testing-llmops/)
 
+### [4. Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://open.substack.com/pub/youssefh/p/overview-of-llm-quantization-techniques?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+Model Quantization enhances the efficiency of large language models (LLMs) by representing their parameters in low-precision data types. This article presents an overview of LLM quantization techniques and resources for learning each of them.
+This section covers different quantization methods, including GGUF, AWQ, PTQ, GPTQ, and QAT, elucidating their mechanisms and applications in LLM optimization. Each sub-section provides learning resources, including tutorials, specifications, and practical guides, facilitating a deeper understanding of the quantization techniques. This section serves as a comprehensive guide for individuals interested in exploring LLM quantization, offering insights into various techniques and resources for continued learning and professional development.
+
+#### 4.1. Introduction to Quantization ####
+<img width="875" height="369" alt="image" src="https://github.com/user-attachments/assets/cc087bc0-f429-4176-bade-504dd395d3c3" />
+
+Model Quantization is a topic that has been gaining popularity recently. The concept of quantization in AI or specifically neural networks, is a technique to represent the weights, biases, and activations in low-precision data types like 8-bit integer (int8) instead of the usual 32-bit floating point (float32). The two most common quantization cases are float32 -> float16 and float32 -> int8. In this section, you will be introduced to model quantization and what are the main techniques for it:
+
+**Learning Resources:**
+
+1. [A Guide to Quantization in LLMs](https://symbl.ai/developers/blog/a-guide-to-quantization-in-llms/)
+2. [Introduction to Weight Quantization](https://mlabonne.github.io/blog/posts/Introduction_to_Weight_Quantization.html)
+3. [LLM Quantization | GPTQ | QAT | AWQ | GGUF | GGML | PTQ](https://medium.com/@siddharth.vij10/llm-quantization-gptq-qat-awq-gguf-ggml-ptq-2e172cd1b3b5)
+4. [Which Quantization Method is Right for You? (GPTQ vs. GGUF vs. AWQ)](https://www.youtube.com/watch?v=mNE_d-C82lI)
+5. [Model Quantization Methods In TensorFlow Lite](https://studymachinelearning.com/model-quantization-methods-in-tensorflow-lite/)
+6. [ExLlamaV2: The Fastest Library to Run LLMs](https://mlabonne.github.io/blog/posts/ExLlamaV2_The_Fastest_Library_to_Run%C2%A0LLMs.html)
+7. [Democratizing LLMs: 4-bit Quantization for Optimal LLM Inference](https://towardsdatascience.com/democratizing-llms-4-bit-quantization-for-optimal-llm-inference-be30cf4e0e34/)
+
+
+#### 4.2. GGUF ####
+
+<img width="875" height="492" alt="image" src="https://github.com/user-attachments/assets/9daa02ed-2b22-49b7-9084-c608dd53760d" />
+
+GGML is a C library focused on machine learning. It was created by Georgi Gerganov, which is what the initials “GG” stand for. This library not only provides foundational elements for machine learning, such as tensors but also a unique binary format to distribute LLMs.
+This format recently changed to GGUF. This new format is designed to be extensible so that new features don’t break compatibility with existing models. It also centralizes all the metadata in one file, such as special tokens, RoPE scaling parameters, etc.
+In short, it answers a few historical pain points and should be future-proof. For more information, you can read the specification at this address. GGML was designed to be used in conjunction with the llama.cpp library, also created by Georgi Gerganov.
+The library is written in C/C++ for efficient inference of Llama models. It can load GGML models and run them on a CPU. Originally, this was the main difference with GPTQ models, which are loaded and run on a GPU. However, you can now offload some layers of your LLM to the GPU with llama.cpp. To give you an example, there are 35 layers for a 7b parameter model. This drastically speeds up inference and allows you to run LLMs that don’t fit in your VRAM.
+Learning Resources:
+
+**Learning Resources:**
+
+1. [Quantize Llama models with GGUF and llama.cpp](https://mlabonne.github.io/blog/posts/Quantize_Llama_2_models_using_ggml.html)
+2. [How to Quantize an LLM with GGUF or AWQ](https://www.youtube.com/watch?v=XM8pllpBVA0)
+
+#### 4.3. Activation-aware Weight Quantization (AWQ) ####
+<img width="875" height="353" alt="image" src="https://github.com/user-attachments/assets/29c38048-ee24-4b50-ad91-85cf11eb8ba4" />
+
+AWQ takes the concept of weight quantization to the next level by considering the activations of the model during the quantization process. In traditional weight quantization, the weights are quantized independently of the data they process. In AWQ, the quantization process takes into account the actual data distribution in the activations produced by the model during inference.
+Here’s how AWQ works:
+- Collect Activation Statistics: During a calibration phase, a subset of the data is used to collect statistics on the activations produced by the model. This involves running the model on this data and recording the range of values and the distribution of activations.
+- Searching Weight Quantization Parameters: Weights are quantized by taking the activation statistics into account. Concretely, we perform a space search for quantization parameters (e.g., scales and zero points), to minimize the distortions incurred by quantization on output activations. As a result, the quantized weights can be accurately represented with fewer bits.
+- Quantizing: With the quantization parameters in place, the model weights are quantized using a reduced number of bits.
+
+**Learning Resources:**
+
+1. [AWQ for LLM Quantization](https://www.youtube.com/watch?v=3dYLj9vjfA0&t=360s)
+2. [Understanding Activation-Aware Weight Quantization (AWQ): Boosting Inference Serving Efficiency in LLMs](https://medium.com/friendliai/understanding-activation-aware-weight-quantization-awq-boosting-inference-serving-efficiency-in-10bb0faf63a8)
+3. [How to Quantize an LLM with GGUF or AWQ](https://www.youtube.com/watch?v=XM8pllpBVA0)
+
+
+#### 4.4. Post-Training Model Quantization (PTQ) ####
+<img width="875" height="556" alt="image" src="https://github.com/user-attachments/assets/5749194c-c186-4c92-b54f-0d0cd2f183c1" />
+
+
+Post Training Quantization computes the scale after the network has been trained. A representative dataset is used to capture the distribution of activations for each activation tensor, then this distribution data is used to compute the scale value for each tensor. Each weight distribution is used to compute the weight scale.
+
+<img width="875" height="67" alt="image" src="https://github.com/user-attachments/assets/d665c06e-5b56-44e3-b7e6-07b85fabe6a0" />
+
+**Learning Resources:**
+
+1. [Post-training Quantization](https://www.youtube.com/watch?v=n8GT_XflSLA)
+2. [Diving deeper into Quantization Realm: Post-Training Magic (PTQ)](https://www.youtube.com/watch?v=n8GT_XflSLA)
+3. [Post Training Quantization with OpenVINO Toolkit](https://learnopencv.com/post-training-quantization-with-openvino-toolkit/#overview-of-deep-learning-model-quantization)
+
+#### 4.5. Accurate Post-Training Quantization for Generative Pre-trained Transformers (GPTQ) ####
+<img width="875" height="493" alt="image" src="https://github.com/user-attachments/assets/673b6823-12bf-4e2a-8dc5-8e36ff0ec7a1" />
+
+GPTQ is a post-training quantization ( PTQ) method to make the model smaller with a calibration dataset. The idea behind GPTQ is very simple: it quantizes each weight by finding a compressed version of that weight, that will yield a minimum mean squared error. The GPTQ algorithm requires calibrating the quantized weights of the model by making inferences on the quantized model.
+
+The effectiveness of quantization greatly depends on the samples for evaluating and refining their quality. These samples serve as a basis for comparing the outputs of the original and quantized models. By using a higher number of samples, the potential for precise and impactful comparisons increases, subsequently enhancing the quality of quantization.
+
+**Learning Resources:**
+
+1. [WTH is LLM quantization? 4-bit GPTQ?](https://dharanichowdary25.medium.com/wth-is-llm-quantization-4bit-gptq-6e635748178d)
+2. [LLM Quantization w/ QLoRA, GPTQ and Llamacpp, LLama 2](https://www.youtube.com/watch?v=YEVyupJxt1Q&t=704s)
+3. [Optimize open LLMs using GPTQ and Hugging Face Optimum](https://www.philschmid.de/gptq-llama)
+4. [4-bit Quantization with GPTQ](https://towardsdatascience.com/4-bit-quantization-with-gptq-36b0f4f02c34/)
+
+#### 4.6. Quantization-Aware Training (QAT) ####
+
+<img width="721" height="377" alt="image" src="https://github.com/user-attachments/assets/5c6c26c7-08cd-4ede-ae67-0c616036eb23" />
+
+Quantization Aware Training (QAT) aims at computing scale factors during training. Once the network is fully trained, Quantize (Q) and Dequantize (DQ) nodes are inserted into the graph following a specific set of rules. The network is then further trained for a few epochs in a process called Fine-Tuning. Q/DQ nodes simulate quantization loss and add it to the training loss during fine-tuning, making the network more resilient to quantization. In other words, QAT can better preserve accuracy when compared to PTQ.
+
+<img width="875" height="77" alt="image" src="https://github.com/user-attachments/assets/f306f5e9-9c4a-4820-a60b-fc02177ba39a" />
+
+**Learning Resources:**
+1. [Quantization Aware Training — Concepts](https://www.youtube.com/watch?v=hGkTFa7FSE0)
+2. [Quantization-aware training comprehensive guide](https://notebook.community/tensorflow/model-optimization/tensorflow_model_optimization/g3doc/guide/quantization/training_comprehensive_guide)
 
 
 
-* [Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://yousefhosni.medium.com/overview-of-llm-quantization-techniques-where-to-learn-each-of-them-0d8599acfec8?sk=594f81f338f15bb211d9356a6537e476)
 * [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
 * [How to Stay Updated with LLM Research & Industry News?](https://medium.com/gitconnected/how-to-stay-updated-with-llm-research-industry-news-c1d60e341bad?sk=99998b76402b2555c2bf998dd186ba0c)
 
