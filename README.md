@@ -13,7 +13,9 @@ Each section builds upon the previous one, ensuring a smooth and logical progres
 
 
 ## Part I: LLM Basics & Architecture ##
+
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/9e8cd3bc-86d6-439d-97eb-2d904c09fc7c" />
+
 
 
 In the first section, you'll grasp the foundational concepts of Large Language Models (LLMs) and their core architectures, focusing on transformers, attention mechanisms, and tokenization.
@@ -293,7 +295,7 @@ Here’s how AWQ works:
 <img width="875" height="556" alt="image" src="https://github.com/user-attachments/assets/5749194c-c186-4c92-b54f-0d0cd2f183c1" />
 
 
-Post Training Quantization computes the scale after the network has been trained. A representative dataset is used to capture the distribution of activations for each activation tensor, then this distribution data is used to compute the scale value for each tensor. Each weight distribution is used to compute the weight scale.
+Post-training quantization computes the scale after the network has been trained. A representative dataset is used to capture the distribution of activations for each activation tensor, then this distribution data is used to compute the scale value for each tensor. Each weight distribution is used to compute the weight scale.
 
 <img width="875" height="67" alt="image" src="https://github.com/user-attachments/assets/d665c06e-5b56-44e3-b7e6-07b85fabe6a0" />
 
@@ -329,6 +331,40 @@ Quantization Aware Training (QAT) aims at computing scale factors during trainin
 1. [Quantization Aware Training — Concepts](https://www.youtube.com/watch?v=hGkTFa7FSE0)
 2. [Quantization-aware training comprehensive guide](https://notebook.community/tensorflow/model-optimization/tensorflow_model_optimization/g3doc/guide/quantization/training_comprehensive_guide)
 
+
+
+### [5. Top Resources to Learn & Understand RLHF & LLM Alignment](https://open.substack.com/pub/youssefh/p/top-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)
+
+Reinforcement Learning from Human Feedback (RLHF) has become one of the main building blocks of building chatbots and large language applications. This section aims to provide you with a curated list of top resources that will help you learn and understand RLHF in depth. Whether you are a researcher, developer, or simply curious about this exciting field, this compilation of blogs, videos, talks, and research papers will serve as a comprehensive guide on RLHF.
+
+#### What is RLHF? ####
+Reinforcement Learning from Human Feedback (RLHF) is a branch of machine learning that combines reinforcement learning (RL) algorithms with human guidance or feedback to improve the learning process. In RLHF, instead of relying solely on an environmental reward signal, the learning agent interacts with human experts who provide feedback or demonstrations to guide the learning process.
+The primary motivation behind RLHF is to enable machines to learn complex tasks more efficiently and effectively by leveraging human expertise. While RL algorithms can learn from trial and error, they can require a large number of interactions with the environment to achieve desirable performance. By incorporating human feedback, RLHF aims to reduce the number of interactions needed and accelerate the learning process.
+RLHF is used in the development of chatbots to enhance their performance and improve their ability to interact with users. Here are some reasons why RLHF is used in developing chatbots:
+
+1. **User Satisfaction:** Chatbots aim to provide helpful and engaging conversations with users. By incorporating RLHF, chatbots can learn from human feedback and adapt their responses based on user preferences, leading to more satisfying interactions. Human feedback helps the chatbot understand what kind of responses are desirable and how to improve over time.
+2. **Rapid Learning:** Training chatbots solely through traditional methods, such as rule-based systems or supervised learning, can be time-consuming and limited in their ability to handle diverse user inputs. RLHF enables chatbots to learn directly from interactions with human experts, reducing the reliance on large amounts of pre-existing data. This accelerates the learning process and allows chatbots to quickly adapt to new situations.
+3. **Handling Uncertainty:** Chatbot conversations can often involve ambiguity and uncertainty. RLHF provides a mechanism for chatbots to seek clarification and guidance from human experts when faced with challenging or unfamiliar user inputs. This helps the chatbot make more informed decisions and provide accurate responses, even in uncertain situations.
+4. **Personalization:** Chatbots that can understand and adapt to individual user preferences can deliver a more personalized experience. RLHF allows chatbots to learn from user feedback and tailor their responses based on individual preferences, improving user satisfaction and engagement. This personalization enhances the chatbot’s ability to understand and fulfill user needs.
+5. **Continuous Improvement:** Chatbots can benefit from continuous learning and improvement based on ongoing user interactions. RLHF enables chatbots to receive feedback from users in real-time, helping them refine their responses and behavior. This iterative learning process allows chatbots to continually enhance their performance and adapt to evolving user requirements.
+6. **Ethical Considerations:** Chatbots that rely solely on pre-existing data may inherit biases or produce inappropriate responses. RLHF provides an opportunity to incorporate human guidance and ensure that the chatbot’s behavior aligns with ethical standards. Human experts can help shape the chatbot’s responses, ensuring they are fair, unbiased, and respectful.
+
+#### Learning Resources: ####
+
+**1. Important Blogs** 
+
+1. [How RLHF actually works by Nathan Lambert:](https://www.interconnects.ai/p/how-rlhf-works) This article will build the intuition behind RLHF and how and why it works simply.
+2. [RLHF: Reinforcement Learning from Human Feedback by Chip Huyen:](https://huyenchip.com/2023/05/02/rlhf.html) How exactly does RLHF work? Why does it work? This post will discuss the answers to those questions with a focus on theoretical details.
+3. [StackLLaMA: A hands-on guide to train LLaMA with RLHF by HuggingFace:](https://huggingface.co/blog/stackllama) In this blog post, you will be shown all the steps involved in training a LlaMa model to answer
+
+**2. Important Videos & Talks**
+1. [Reinforcement Learning from Human Feedback: From Zero to ChatGPT:](https://www.youtube.com/watch?v=2MBJOuVq380) In this talk, speakers will cover the basics of Reinforcement Learning from Human Feedback (RLHF) and how this technology is being used to enable state-of-the-art ML tools like ChatGPT. Most of the talk will be an overview of the interconnected ML models and cover the basics of Natural Language Processing and RL that one needs to understand how RLHF is used on large language models. It will conclude with an open question in RLHF.
+2. [State of GPT by Andrej Karpathy:](https://www.youtube.com/watch?v=bZQun8Y4L2A) In this talk, you will learn about the training pipeline of GPT assistants like ChatGPT, from tokenization to pretraining, supervised finetuning, and Reinforcement Learning from Human Feedback (RLHF). In addition to that, you will dive deeper into practical techniques and mental models for the effective use of these models, including prompting strategies, finetuning, the rapidly growing ecosystem of tools, and their future extensions.
+
+**3. Important Research Papers**
+1. [Deep reinforcement learning from human preferences by OpenAI:](https://arxiv.org/abs/1706.03741) In this work, the authors explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. They show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent’s interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of this approach, they show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.
+2. [Learning to summarize from human feedback by OpenAI:](https://arxiv.org/abs/2009.01325) In this work, the authors show that it is possible to significantly improve summary quality by training a model to optimize for human preferences. They collect a large, high-quality dataset of human comparisons between summaries, train a model to predict the human-preferred summary, and use that model as a reward function to fine-tune a summarization policy using reinforcement learning. They apply the method to a version of the TL;DR dataset of Reddit posts and find that our models significantly outperform both human reference summaries and much larger models fine-tuned with supervised learning alone. The models also transfer to CNN/DM news articles, producing summaries nearly as good as those of a human
+3. [Training language models to follow instructions with human feedback by OpenAI:](https://arxiv.org/abs/2203.02155) In this paper, the authors show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning them with human feedback. Starting with labeler-written prompts and prompts submitted through the OpenAI API, they collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. They then collect a dataset of rankings of model outputs, which they use to fine-tune this supervised model further using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on the prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, the results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.
 
 
 * [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
