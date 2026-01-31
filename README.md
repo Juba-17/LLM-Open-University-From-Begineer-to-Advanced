@@ -332,7 +332,7 @@ Quantization Aware Training (QAT) aims at computing scale factors during trainin
 2. [Quantization-aware training comprehensive guide](https://notebook.community/tensorflow/model-optimization/tensorflow_model_optimization/g3doc/guide/quantization/training_comprehensive_guide)
 
 
-
+---------
 ### [5. Top Resources to Learn & Understand RLHF & LLM Alignment](https://open.substack.com/pub/youssefh/p/top-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)
 
 Reinforcement Learning from Human Feedback (RLHF) has become one of the main building blocks of building chatbots and large language applications. This section aims to provide you with a curated list of top resources that will help you learn and understand RLHF in depth. Whether you are a researcher, developer, or simply curious about this exciting field, this compilation of blogs, videos, talks, and research papers will serve as a comprehensive guide on RLHF.
