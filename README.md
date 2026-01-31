@@ -103,7 +103,7 @@ Enhancing the performance of the LLM and RAG systems depends on efficiently proc
 1. [How to Build an Effective Data Collection and Processing Strategy for LLM Training](https://www.turing.com/resources/building-effective-data-strategy-for-llm-training)
 2. [Preprocessing Unstructured Data for LLM Applications](https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/)
 
-
+--------------------------------------------------
 ### [2. Practical Guide to LLM Fine-Tuning ](https://open.substack.com/pub/youssefh/p/mastering-large-language-model-llm?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Large language models (LLMs) have transformed the field of natural language processing with their advanced capabilities and highly sophisticated solutions.
@@ -173,7 +173,7 @@ This section provides a roadmap to navigate these notebooks, making it an essent
 13. [Fine-Tuning OpenAI GPT3.5 Turbo](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/13.Fine_tuning_OpenAI_GPT_3_5_turbo.ipynb#scrollTo=AJagDsTsIn9z)
 14. [Finetuning Mistral-7b using Autotrain Advanced](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/14.Finetuning_Mistral_7b_Using_AutoTrain.ipynb)
 
-
+--------------------------------------------------
 ### [3. Best Resources to Learn & Understand Evaluating LLMs](https://open.substack.com/pub/youssefh/p/best-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)  ###
 As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level but also at the societal level for a better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives.
 This section presents a comprehensive set of resources that will help you understand LLM evaluation, starting from what to evaluate, where to evaluate, and how to evaluate.
@@ -239,6 +239,8 @@ With a robust automated testing pipeline, you’ll be able to isolate bugs befor
 **Resources:**
 1. [Automated Testing for LLMOps](https://www.deeplearning.ai/short-courses/automated-testing-llmops/)
 
+
+--------------------------------------------------
 ### [4. Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://open.substack.com/pub/youssefh/p/overview-of-llm-quantization-techniques?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Model Quantization enhances the efficiency of large language models (LLMs) by representing their parameters in low-precision data types. This article presents an overview of LLM quantization techniques and resources for learning each of them.
@@ -332,7 +334,7 @@ Quantization Aware Training (QAT) aims at computing scale factors during trainin
 2. [Quantization-aware training comprehensive guide](https://notebook.community/tensorflow/model-optimization/tensorflow_model_optimization/g3doc/guide/quantization/training_comprehensive_guide)
 
 
----------
+--------------------------------------------------
 ### [5. Top Resources to Learn & Understand RLHF & LLM Alignment](https://open.substack.com/pub/youssefh/p/top-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)
 
 Reinforcement Learning from Human Feedback (RLHF) has become one of the main building blocks of building chatbots and large language applications. This section aims to provide you with a curated list of top resources that will help you learn and understand RLHF in depth. Whether you are a researcher, developer, or simply curious about this exciting field, this compilation of blogs, videos, talks, and research papers will serve as a comprehensive guide on RLHF.
@@ -367,7 +369,74 @@ RLHF is used in the development of chatbots to enhance their performance and imp
 3. [Training language models to follow instructions with human feedback by OpenAI:](https://arxiv.org/abs/2203.02155) In this paper, the authors show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning them with human feedback. Starting with labeler-written prompts and prompts submitted through the OpenAI API, they collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. They then collect a dataset of rankings of model outputs, which they use to fine-tune this supervised model further using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on the prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, the results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.
 
 
-* [Top Resources to Learn & Understand RLHF & LLM Alignment](https://levelup.gitconnected.com/top-resources-to-learn-understand-rlhf-69f7984f1e58?sk=79d44cc8a12394a958545096643bc583)
+### [6. Best Resources to Build & Understand Vision Language Models](https://open.substack.com/pub/youssefh/p/best-resources-to-build-and-understand?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+Vision-Language Models (VLMs) lie at the intersection of computer vision and natural language processing, enabling systems to understand and generate language grounded in visual context.
+These models power a wide range of applications — from image captioning and visual question answering to multimodal search and AI assistants. This article offers a curated guide to learning and building VLMs, exploring key concepts in multimodality, foundational architectures, hands-on coding resources, and advanced topics like retrieval-augmented generation for multimodal inputs.
+Whether you’re a beginner trying to grasp the basics or a practitioner looking to deepen your technical understanding, this guide brings together practical and conceptual resources to support your journey into the world of vision-language modeling.
+
+
+#### [6.1. Multimodality and Large Multimodal Models (LMMs)](https://huyenchip.com/2023/10/10/multimodal.html) ####
+
+<img width="885" height="382" alt="image" src="https://github.com/user-attachments/assets/6d517bd0-2333-4088-a1df-8d7d7768237b" />
+
+Chip Huyen, in this [article](https://huyenchip.com/2023/10/10/multimodal.html), explores the rising field of multimodal AI, where models handle and integrate different types of data like text, images, and audio. She explains why multimodality matters — real-world applications often involve multiple input types, from medical imaging paired with patient records to robotic systems interpreting both vision and commands.
+The piece walks through how models like CLIP and Flamingo work, focusing on how they align modalities (like vision and language) using contrastive learning or combination architectures.
+It also outlines key research directions, such as expanding to more data types, building instruction-following systems, efficiently training with adapters, and generating outputs across modalities. In short, the article gives a clear, technical yet accessible roadmap of how multimodal models are evolving and why they’re essential for building more capable AI systems.
+
+The article covers the following topics:
+- Part 1. Understanding Multimodal
+- Part 2. Fundamentals of Multimodal Training
+- Part 3. Research Directions for LMMs
+
+#### [6.2. Smol Vision Course](https://github.com/merveenoyan/smol-vision) ####
+
+<img width="969" height="459" alt="image" src="https://github.com/user-attachments/assets/809fb919-067f-4dc9-82c5-64795af943fc" />
+
+The [smol vision course](https://github.com/merveenoyan/smol-vision) is maintained by Merve Noyan and others from Hugging Face. It contains tutorials for shrinking, optimizing, and customizing cutting-edge vision models.
+
+#### [6.3. Coding a Multimodal (Vision) Language Model from scratch in PyTorch](https://www.youtube.com/watch?v=vAmKB7iPkWw) ####
+
+In this [5-hour video](https://www.youtube.com/watch?v=vAmKB7iPkWw), Umar Jamil will be coding the PaliGemma Vision Language Model from scratch while explaining all the concepts behind it:
+- Transformer model (Embeddings, Positional Encoding, Multi-Head Attention, Feed Forward Layer, Logits, Softmax)
+- Vision Transformer model
+- Contrastive learning (CLIP, SigLip)
+- Numerical stability of the Softmax and the Cross-Entropy Loss
+- Rotary Positional Embedding
+- Multi-Head Attention
+- Grouped Query Attention
+- Normalization layers (Batch, Layer, and RMS)
+- KV-Cache (prefilling and token generation)
+- Attention masks (causal and non-causal)
+- Weight tying
+- Top-P Sampling and Temperature
+
+#### [6.4. Awesome Vision-Language Models](https://github.com/jingyi0000/VLM_survey) ####
+
+<img width="1400" height="517" alt="image" src="https://github.com/user-attachments/assets/540809b2-16da-4aaa-9666-165688818152" />
+
+[Awesome Vision-Language Models](https://github.com/jingyi0000/VLM_survey) is a repository of Vision Language Models for Vision Tasks: a Survey, a systematic survey of VLM papers in various visual recognition tasks, including image classification, object detection, semantic segmentation, etc. LLM
+
+
+#### [6.5. Multimodal RAG](https://github.com/To-Data-Beyond/Multimodal-RAG) ####
+
+<img width="831" height="942" alt="image" src="https://github.com/user-attachments/assets/acb65ddb-c269-4609-b814-5499b96920c3" />
+
+Finally, one of the important applications of vision language models is multimodal RAGs. In this [hands-on course](https://github.com/jingyi0000/VLM_survey), you will learn how to build a multimodal RAG system by breaking down each step and building it up.
+This course covers:
+
+- Introduction to Multimodal RAG Applications
+- Multimodal RAG Application Architecture
+- Multimodal Embeddings
+- Processing Videos for Multimodal RAG
+- Multimodal Retrieval from Vector Stores
+- Large Vision Language Models (LVLMs)
+- Multimodal RAG with Multimodal LangChain
+- Putting it All Together! Building Multimodal RAG Application
+
+------------------------------
+
+
 * [How to Stay Updated with LLM Research & Industry News?](https://medium.com/gitconnected/how-to-stay-updated-with-llm-research-industry-news-c1d60e341bad?sk=99998b76402b2555c2bf998dd186ba0c)
 
 # Part III: LLMs In Production # 
