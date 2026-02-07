@@ -436,18 +436,61 @@ This course covers:
 
 ------------------------------
 
-### [7. How to Stay Updated with LLM Research & Industry News?](https://open.substack.com/pub/todatabeyond/p/how-to-stay-updated-with-llm-research?utm_campaign=post-expanded-share&utm_medium=web)###
+### [7. How to Stay Updated with LLM Research & Industry News?](https://open.substack.com/pub/todatabeyond/p/how-to-stay-updated-with-llm-research?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 In the rapidly evolving landscape of Large Language Models (LLMs), staying abreast of the latest research breakthroughs and industry developments is paramount for professionals and enthusiasts alike. This blog serves as a comprehensive guide, presenting a curated list of resources tailored to cater to this need. This section begins by spotlighting the pioneers and thought leaders in LLM research, providing insights into their work and contributions to the field. It then transitions to examining key players driving innovation and application within the LLM industry. Additionally, it explores prominent organizations dedicated to advancing LLM research and fostering collaboration within the community.
 Furthermore, the section identifies influential individuals and content creators shaping discourse and disseminating valuable insights across various platforms. It delves into the realm of newsletters and blogs, highlighting essential sources for staying updated on the latest trends and developments in LLM research and industry. Whether one is an aspiring researcher, industry practitioner, or simply intrigued by the capabilities of LLMs, this blog equips readers with the essential resources to remain informed and engaged in this dynamic domain.
 
+#### 7.1. LLM Research Leaders ####
+1. **Yann LeCun:** Yann is also one of the deep learning pioneers, and he is currently a Chief AI Scientist at Meta AI. He publishes the research output at Meta AI in addition to his opinions on AI research.
+2. **Andrej Karpathy:** Andrej is one of the leading AI researchers, and currently, he is latest position was at OpenAI; before that, he was the director of AI at Tesla. By following Andrej, you will stay updated with recent AI research and also important opinions about the AI advances and research.
+3. **Sebastian Raschka:** Sebastian is a machine learning researcher and author of Machine Learning with Pytorch and Scikit-Learn. Sebastian shares very insightful tweets about AI, deep learning, and Pytorch.
+
+#### 7.2. LLM Industry Leaders ####
+
+1. **Andrew Ng:** Andrew Ng, a prominent figure in the AI community, shares research, publications, projects, courses, and industry news. He engages in discussions, offers guidance, and provides valuable perspectives on AI ethics and applications. Following Andrew Ng on Twitter keeps you informed about the latest developments and connects you with the AI community.
+2. **Demis Hassabis:** Demis is the co-founder and CEO of DeepMind. Following him will keep you updated on the new research output and new projects from DeepMind.
+3. **Thomas Wolf:** Thomas is the Co-founder of HuggingFace. He shares the new projects and important models of HuggingFace in addition to important AI news.
+4. **Oriol Vinyals:** Oriol is the VP of research and deep learning lead at Google DeepMind. He shares updates about research projects and research output at Google DeepMind
+5. **Sam Altman:** Sam is the co-founder of OpenAI. His tweets are mainly about AI ethics, regulations, and recent outputs from OpenAI.
+6. **Abubakar Abid:** Abubakar is the founder of Gradio, which was recently acquired by HuggingFace. He shares important updates on Gardio in addition to demos on Gardio. Also, he is the founder of the Fatima fellowship, and he shares important announcements related to it.
+7. **Jay Alammar:** Jay is the director of engineering at Cohere. Jay is well known for his illustrated NLP blogs in which he simplifies complex concepts using illustrations.
+
+#### 7.3. LLM Research & Industry Organizations ####
+
+1. **NeurIPS Conference: NeurIPS**, a prestigious conference in the ML and AI community, offers valuable updates, keynote announcements, registration details, submission deadlines, and highlights from past conferences. The account also shares research papers, workshop announcements, and tutorials. By following NeurIPS, you join a global network of leading researchers, practitioners, and industry professionals, gaining knowledge and networking opportunities. Stay tuned to NeurIPS on Twitter for the latest trends and breakthroughs in ML research. Prepare for an exciting journey through cutting-edge ML research.
+2. **Google DeepMind: DeepMind**, a subsidiary of Google, is known for its cutting-edge advancements in AI. By following their account, you gain access to updates on research findings, publications, and breakthroughs. DeepMind’s work in reinforcement learning, neural networks, and deep learning is highlighted, along with applications in various domains. Their Twitter account also features events, talks, and panel discussions with their researchers.
+3. **Google AI:** Google AI shares updates on AI projects, research papers, technology advancements, and practical applications across domains. Google AI’s Twitter account also features highlights from conferences, events, and talks by their researchers. By following Google AI, you stay informed about cutting-edge developments and engage with diverse AI applications. Stay tuned to their account for valuable insights and inspiration in the field of AI.
+4. **Meta AI**This is the official account for Meta AI. By following it, you will stay updated with the new research output by Meta AI.
+5. **Hugging Face:** Hugging Face is a company known for its state-of-the-art models and NLP tools. By following their account, you gain access to model releases, library improvements, NLP research advancements, tips, tutorials, and community engagement. Stay connected to cutting-edge developments and leverage their tools for your own NLP projects and research.
+6. **OpenAI:** OpenAI is a leading research organization focused on safe and beneficial AI development. By following their account, you gain access to updates on research projects, new AI models/tools, insights from team members, and announcements. The account engages with the AI community, discusses ethical implications, and promotes responsible AI development. Stay informed about AI trends and discussions by following OpenAI on Twitter.
 
 
+#### 7.4. LLM Influencers & Content Creators ####
+
+1. **Omar Sanseviero:** Omar Sanseviero is a prominent figure in the machine learning community, currently serving as a machine learning advocate at Hugging Face. He plays a significant role at the intersection of open source, product development, research, and community engagement. He shares valuable insights on LLM development and recent news.
+2.  **Rohan Paul:** Rohan is known for his educational content and resources on machine learning. He has a YouTube channel, "Rohan-Paul-AI," where he shares tutorials and insights on topics like LLM, GANs (Generative Adversarial Networks), and other deep learning models.
+3.   **Rowan Cheung:** Rowan Cheung is the founder of “The Rundown AI,” a popular newsletter that provides updates and insights on the latest developments in artificial intelligence. He covers a wide range of AI topics, including new technologies, industry trends, and significant advancements from leading tech companies like Microsoft and Google.
+4.   **AK**: AK is a machine learning engineer at Gardio. He is well known for publishing summaries of recent machine learning and AI papers on a daily basis.
+5. **Yannic Kilcher:** Yannic is the co-founder of DeepJudge, and he runs a YouTube channel under his name. He is very active in making videos for in-depth explanations of recent important research papers and important AI news.
+6. **Jeremy Howard:** Jeremy Howard is a renowned data scientist, entrepreneur, and educator. He is known for his contributions to the field of AI, particularly in deep learning, and for founding Fast ai. Jeremy shares important opinions about AI and deep learning, in addition to news and updates related to Fast ai.
+7. **Santiago:** Santiago was previously a director of computer vision at Levatas and is currently managing his own machine-learning school. Santiago shares valuable technical and career tips that will help you build both better careers and better projects.
+8. **Elvis:** Elvis is a former machine learning engineer at Meta working on the Paper with Code project, and currently, he is focusing on DIAR, an open-source educational platform. He shares very important summaries of recent machine learning papers in addition to important AI news, and also DIAR recent projects.
+9. **Sanyam Bhutani:** Sanyam is a senior data scientist at Weights and Biases,v and he is also one of the world kaggle grandmasters. He is very active on Twitter and shares summaries of important research papers on a daily basis in addition to important AI news.
+10. **Harrison Kinsley:** Harrison runs one of the best AI & Programming YouTube channels under the name of Sentdex. He covers different topics on his YouTube channel, including explaining recent papers, news, and also in-depth explanations for different concepts.
+11. **Lilian Weng:** Lilian is working on AI safety at OpenAI. Her posts are mainly about LLM politics and safety at openAI and also new announcements related to OpenAI work.
+
+#### 7. 5. Newsletters & Blogs for LLM Research News ####
+
+1. **To Data & Beyond Newsletter:** The “To Data & Beyond” newsletter by Youssef Hosni is an excellent resource for staying updated with the latest research and developments in large language models (LLMs). It offers in-depth analysis, summaries of recent research papers, and discussions on trends in data science and machine learning. The newsletter aims to provide valuable insights for both professionals and enthusiasts in the field, making complex topics more accessible.
+2. **The AiEdge Newsletter:** The AiEdge Newsletter, curated by Damien Benveniste, is an excellent source for staying updated with the latest research and developments in large language models (LLMs). The newsletter covers a wide array of topics, including machine learning applications, system design, MLOps, and the latest techniques and news in the field. It aims to make complex machine-learning concepts accessible to a broader audience, often diving into subjects not typically covered in mainstream sources.
+3. **Ahead of AI:** Ahead of AI newsletter, authored by Sebastian Raschka, is a highly regarded newsletter that provides in-depth coverage of the latest research and developments in AI, particularly focusing on machine learning and large language models (LLMs). With over a decade of experience in AI and a passion for education, Raschka curates content that is valuable for both researchers and practitioners aiming to stay ahead in the rapidly evolving AI field.
+4. **Daily Papers by Hugging Face:** Hugging Face’s daily paper initiative focuses on providing the community with access to significant papers, facilitating discussions around them, and offering a centralized place to explore these papers and related artifacts like models, datasets, and demos.
+5. **The Rundown:** The Rundown newsletter gives you access to the latest AI news and learn how to apply it in 5 minutes. By simply following this newsletter, you’ll be able to: Keep up with the rapid pace of AI,  Learn how to use AI to automate your work, Discover the best AI tools and job opportunities, and Gain expert insights on how AI will reshape the future of work.
+6. **KDNuggets:** KDnuggets is a highly reputable source for staying updated with industry news related to large language models (LLMs) and other advancements in data science, machine learning, and AI. It offers a wealth of resources, including articles, tutorials, opinions, and industry news, making it a comprehensive platform for professionals and enthusiasts in these fields.
 
 
-
-
-
+-------------------------------------------
 # Part III: LLMs In Production # 
 * [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
 * [Top Resources to Master Vector Databases & Building a Vector Storage](https://levelup.gitconnected.com/6-resources-to-master-vector-databases-building-a-vector-storage-8d94ca1e3897?sk=1447d3e09380b72ded2edd380e354f22)
