@@ -57,9 +57,9 @@ Understanding Reinforcement Learning from Human Feedback (RLHF) and LLM alignmen
 By the end of this section, you will have a comprehensive understanding of how to build, train, fine-tune, evaluate, and optimize LLMs, equipped with the knowledge and practical skills to develop high-performing models tailored to specific needs.
 
 
-### [1. Best Resources on Building Datasets to Train LLMs](https://open.substack.com/pub/youssefh/p/best-resources-on-building-datasets?utm_campaign=post-expanded-share&utm_medium=web) ###
+### [1. Best Resources on Building Datasets to Train LLMs](https://open.substack.com/pub/todatabeyond/p/best-resources-on-building-datasets?utm_campaign=post-expanded-share&utm_medium=web) ###
 
-Large language models (LLMs), such as OpenAI’s GPT series and Google’s Bard, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGLM, training an LLM is no longer the exclusive domain of resource-rich companies.
+Large language models (LLMs), such as OpenAI’s GPT series and Google’s Bard, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGPT, training an LLM is no longer the exclusive domain of resource-rich companies.
 Training LLMs by small organizations or individuals has become an important interest in the open-source community, with some notable works including Alpaca, Vicuna, and Luotuo.
 
 In addition to large model frameworks, large-scale and high-quality training corpora are also essential for training large language models. Currently, relevant open-source corpora in the community are still scattered. Therefore, this section aims to introduce and collect high-quality resources to learn how to build training datasets for LLM applications.
@@ -104,7 +104,7 @@ Enhancing the performance of the LLM and RAG systems depends on efficiently proc
 2. [Preprocessing Unstructured Data for LLM Applications](https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/)
 
 --------------------------------------------------
-### [2. Practical Guide to LLM Fine-Tuning ](https://open.substack.com/pub/youssefh/p/mastering-large-language-model-llm?utm_campaign=post-expanded-share&utm_medium=web) ###
+### [2. Practical Guide to LLM Fine-Tuning ](https://open.substack.com/pub/todatabeyond/p/mastering-large-language-model-llm?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Large language models (LLMs) have transformed the field of natural language processing with their advanced capabilities and highly sophisticated solutions.
 These models, trained on massive datasets of text, perform a wide range of tasks, including text generation, translation, summarization, and question-answering. But while LLMs are powerful tools, they’re often incompatible with specific tasks or domains.
@@ -174,8 +174,8 @@ This section provides a roadmap to navigate these notebooks, making it an essent
 14. [Finetuning Mistral-7b using Autotrain Advanced](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/14.Finetuning_Mistral_7b_Using_AutoTrain.ipynb)
 
 --------------------------------------------------
-### [3. Best Resources to Learn & Understand Evaluating LLMs](https://open.substack.com/pub/youssefh/p/best-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)  ###
-As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level but also at the societal level for a better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives.
+### [3. Best Resources to Learn & Understand Evaluating LLMs](https://open.substack.com/pub/todatabeyond/p/best-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)  ###
+As LLMs continue to play a vital role in both research and daily use, their evaluation becomes increasingly critical, not only at the task level but also at the societal level, for a better understanding of their potential risks. Over the past years, significant efforts have been made to examine LLMs from various perspectives.
 This section presents a comprehensive set of resources that will help you understand LLM evaluation, starting from what to evaluate, where to evaluate, and how to evaluate.
 
 #### 3.1. Overview of LLM Evaluation Methods ####
@@ -197,7 +197,7 @@ In this section, we explore the nuances of evaluation metrics, the significance 
 
 It is evident that merely training LLMs is not sufficient. Thus, the question arises: How can we confidently assert that LLM ‘A’ (with ’n’ number of parameters) is superior to LLM ‘B’ (with ‘m’ parameters)? Or is LLM ‘A’ more reliable than LLM ‘B’ based on quantifiable, reasonable observations? There needs to be a standard to benchmark LLMs, ensuring they are ethically reliable and factually performant.
 
-In this section, you will learn about the current evaluation paradigm and understand the terminologies of LLM benchmarking/evaluation. You will also learn about some prominent research on evaluating benchmarking and comparing LLMs on various tasks or scenarios.
+In this section, you will learn about the current evaluation paradigm and understand the terminology of LLM benchmarking/evaluation. You will also learn about some prominent research on evaluating benchmarking and comparing LLMs on various tasks or scenarios.
 
 **Resources:**
 1. [The Definitive Guide to LLM Benchmarking](https://www.confident-ai.com/blog/the-current-state-of-benchmarking-llms)
@@ -225,7 +225,7 @@ In this section, you will learn about the Elo rating system, which is a widely u
 
 #### 3.5. Evaluating RAG Applications ####
 
-Retrieval Augmented Generation (RAG) stands out as one of the most popular use cases of large language models (LLMs). This method facilitates the integration of an LLM with an organization’s proprietary data. Therefore it is important to evaluate and track experimenting to improve your RAG pipeline’s performance. Also, to understand the RAG triad: Context Relevance, Groundedness, and Answer Relevance, which are methods to evaluate the relevance and truthfulness of your LLM’s response.
+Retrieval Augmented Generation (RAG) stands out as one of the most popular use cases of large language models (LLMs). This method facilitates the integration of an LLM with an organization’s proprietary data. Therefore it is important to evaluate and track experimentation to improve your RAG pipeline’s performance. Also, to understand the RAG triad: Context Relevance, Groundedness, and Answer Relevance, which are methods to evaluate the relevance and truthfulness of your LLM’s response.
 
 **Resources:**
 1. [Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
@@ -233,7 +233,7 @@ Retrieval Augmented Generation (RAG) stands out as one of the most popular use c
 #### 3.6. Automated Testing for LLMs ####
 
 When building applications with generative AI, model behavior is less predictable than traditional software. That’s why systematic testing can make an even bigger difference in saving you development time and cost.
-Continuous integration, a key part of LLMOps, is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix.
+Continuous integration is a key part of LLMOps, which is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix.
 With a robust automated testing pipeline, you’ll be able to isolate bugs before they accumulate — when they’re easier and less costly to fix. Automated testing lets your team focus on building new features so that you can iterate and ship products faster.
 
 **Resources:**
@@ -241,7 +241,7 @@ With a robust automated testing pipeline, you’ll be able to isolate bugs befor
 
 
 --------------------------------------------------
-### [4. Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://open.substack.com/pub/youssefh/p/overview-of-llm-quantization-techniques?utm_campaign=post-expanded-share&utm_medium=web) ###
+### [4. Overview of LLM Quantization Techniques & Where to Learn Each of Them?](https://open.substack.com/pub/todatabeyond/p/overview-of-llm-quantization-techniques?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Model Quantization enhances the efficiency of large language models (LLMs) by representing their parameters in low-precision data types. This article presents an overview of LLM quantization techniques and resources for learning each of them.
 This section covers different quantization methods, including GGUF, AWQ, PTQ, GPTQ, and QAT, elucidating their mechanisms and applications in LLM optimization. Each sub-section provides learning resources, including tutorials, specifications, and practical guides, facilitating a deeper understanding of the quantization techniques. This section serves as a comprehensive guide for individuals interested in exploring LLM quantization, offering insights into various techniques and resources for continued learning and professional development.
@@ -335,7 +335,7 @@ Quantization Aware Training (QAT) aims at computing scale factors during trainin
 
 
 --------------------------------------------------
-### [5. Top Resources to Learn & Understand RLHF & LLM Alignment](https://open.substack.com/pub/youssefh/p/top-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)
+### [5. Top Resources to Learn & Understand RLHF & LLM Alignment](https://open.substack.com/pub/todatabeyond/p/top-resources-to-learn-and-understand?utm_campaign=post-expanded-share&utm_medium=web)
 
 Reinforcement Learning from Human Feedback (RLHF) has become one of the main building blocks of building chatbots and large language applications. This section aims to provide you with a curated list of top resources that will help you learn and understand RLHF in depth. Whether you are a researcher, developer, or simply curious about this exciting field, this compilation of blogs, videos, talks, and research papers will serve as a comprehensive guide on RLHF.
 
@@ -369,7 +369,7 @@ RLHF is used in the development of chatbots to enhance their performance and imp
 3. [Training language models to follow instructions with human feedback by OpenAI:](https://arxiv.org/abs/2203.02155) In this paper, the authors show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning them with human feedback. Starting with labeler-written prompts and prompts submitted through the OpenAI API, they collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. They then collect a dataset of rankings of model outputs, which they use to fine-tune this supervised model further using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on the prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, the results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.
 
 
-### [6. Best Resources to Build & Understand Vision Language Models](https://open.substack.com/pub/youssefh/p/best-resources-to-build-and-understand?utm_campaign=post-expanded-share&utm_medium=web) ###
+### [6. Best Resources to Build & Understand Vision Language Models](https://open.substack.com/pub/todatabeyond/p/best-resources-to-build-and-understand?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Vision-Language Models (VLMs) lie at the intersection of computer vision and natural language processing, enabling systems to understand and generate language grounded in visual context.
 These models power a wide range of applications — from image captioning and visual question answering to multimodal search and AI assistants. This article offers a curated guide to learning and building VLMs, exploring key concepts in multimodality, foundational architectures, hands-on coding resources, and advanced topics like retrieval-augmented generation for multimodal inputs.
@@ -436,8 +436,17 @@ This course covers:
 
 ------------------------------
 
+### [7. How to Stay Updated with LLM Research & Industry News?](https://open.substack.com/pub/todatabeyond/p/how-to-stay-updated-with-llm-research?utm_campaign=post-expanded-share&utm_medium=web)###
 
-* [How to Stay Updated with LLM Research & Industry News?](https://medium.com/gitconnected/how-to-stay-updated-with-llm-research-industry-news-c1d60e341bad?sk=99998b76402b2555c2bf998dd186ba0c)
+In the rapidly evolving landscape of Large Language Models (LLMs), staying abreast of the latest research breakthroughs and industry developments is paramount for professionals and enthusiasts alike. This blog serves as a comprehensive guide, presenting a curated list of resources tailored to cater to this need. This section begins by spotlighting the pioneers and thought leaders in LLM research, providing insights into their work and contributions to the field. It then transitions to examining key players driving innovation and application within the LLM industry. Additionally, it explores prominent organizations dedicated to advancing LLM research and fostering collaboration within the community.
+Furthermore, the section identifies influential individuals and content creators shaping discourse and disseminating valuable insights across various platforms. It delves into the realm of newsletters and blogs, highlighting essential sources for staying updated on the latest trends and developments in LLM research and industry. Whether one is an aspiring researcher, industry practitioner, or simply intrigued by the capabilities of LLMs, this blog equips readers with the essential resources to remain informed and engaged in this dynamic domain.
+
+
+
+
+
+
+
 
 # Part III: LLMs In Production # 
 * [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
