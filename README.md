@@ -15,7 +15,7 @@ Each section builds upon the previous one, ensuring a smooth and logical progres
 ### Table of Contents: ###
 - [Part I: LLM Basics & Architecture](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=LLM%20Portfolio%20Projects-,Part%20I%3A%20LLM%20Basics%20%26%20Architecture,-In%20the%20first)
 - [Part II: Building & Training LLM From Scratch](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=LLM%20Learning%20Path-,Part%20II%3A%20Building%20%26%20Training%20LLM%20From%20Scratch,-The%20second%20section)
-- Part III: Building LLMs Production Applications
+- [Part III: Building LLMs Production Applications](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=in%20these%20fields.-,Part%20III%3A%20Building%20LLMs%20Production%20Applications,-Best%20Resoruces%20to)
 - Part IV: Building Your LLM Portfolio Projects
 
 
