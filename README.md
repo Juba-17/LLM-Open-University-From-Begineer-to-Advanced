@@ -12,6 +12,13 @@ The final section is dedicated to helping you build your portfolio, offering ten
 Each section builds upon the previous one, ensuring a smooth and logical progression from basic concepts to advanced applications, ultimately equipping you with the essential knowledge and practical skills needed to master LLMs and leverage their capabilities effectively.
 
 
+### Table of Contents: ###
+- Part I: LLM Basics & Architecture
+- Part II: Building & Training LLM From Scratch
+- Part III: Building LLMs Production Applications
+- Part IV: Building Your LLM Portfolio Projects
+
+
 ## Part I: LLM Basics & Architecture ##
 
 <img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/9e8cd3bc-86d6-439d-97eb-2d904c09fc7c" />
@@ -491,7 +498,7 @@ Furthermore, the section identifies influential individuals and content creators
 
 
 -------------------------------------------
-# Part III: LLMs In Production # 
+# Part III: Building LLMs Production Applications # 
 * [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
 * [Top Resources to Master Vector Databases & Building a Vector Storage](https://levelup.gitconnected.com/6-resources-to-master-vector-databases-building-a-vector-storage-8d94ca1e3897?sk=1447d3e09380b72ded2edd380e354f22)
 * [Top Resources to Master RAG: From Basic Level to Advanced](https://pub.towardsai.net/top-resources-to-master-rag-from-basic-level-to-advanced-755a814d9348?sk=0e75d3790fbb62b5592b3858b4376cf8)
@@ -502,6 +509,6 @@ Furthermore, the section identifies influential individuals and content creators
 * [What is LLMOps and How to Get Started With It](https://levelup.gitconnected.com/what-is-llmops-and-how-to-get-started-with-it-04002c25e081?sk=f127154bd466cca6b5aae3ce88774f6e)
 * [Securing LLMs: Best Learning & Educational Resources](https://levelup.gitconnected.com/securing-llms-best-learning-educational-resources-b9638c063c92?sk=0ba4ddeb4998f310509e99ec3d3d93b9)
 
-# Part IV: Building Your LLM Portfolio #
+# Part IV: Building Your LLM Portfolio Projects #
 * [10 Large Language Models Projects To Build Your Portfolio](https://levelup.gitconnected.com/10-large-language-models-projects-to-build-your-portfolio-d7974569aad4?sk=d59e963806e3ccf5fdcd3b5c0f715f48)
 * [10 Guided Large Language Models Projects to Build Your Portfolio](https://levelup.gitconnected.com/10-guided-large-language-models-projects-to-build-your-portfolio-dc9bd79f09c?sk=fa1867433c0285c6f41470fba0d2198f)
