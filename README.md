@@ -535,7 +535,16 @@ Be ready to dive deep and acquire advanced skills for effectively prompting and 
 
 ------------------------------
 
-* [Top Resources to Master Vector Databases & Building a Vector Storage](https://levelup.gitconnected.com/6-resources-to-master-vector-databases-building-a-vector-storage-8d94ca1e3897?sk=1447d3e09380b72ded2edd380e354f22)
+### [10. Master RAG: From Basic Level to Advanced](https://open.substack.com/pub/todatabeyond/p/top-resources-to-master-rag-from?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+
+- What Is Retrieval-Augmented Generation, aka RAG?: A Comprehensive article by Nivida that introduces RAG and how it works.
+- RAG Applications with Llama-Index: This tutorial introduces you to Llma-Index and how to build production-ready RAG applications.
+- Building RAG Applications with LangChain: A compressive list of articles that walk you step by step through building RAG applications using LangChain.
+- LangChain — OpenAI’s RAG: Overview of the RAG strategies employed by OpenAI, including post-processing.
+
+
+------------------------------
 * [Top Resources to Master RAG: From Basic Level to Advanced](https://pub.towardsai.net/top-resources-to-master-rag-from-basic-level-to-advanced-755a814d9348?sk=0e75d3790fbb62b5592b3858b4376cf8)
 * [Top Free Learning Resources to Master LLM Agents](https://levelup.gitconnected.com/top-free-learning-resources-to-master-llm-agents-477fad6fcf9c?sk=b345796e178fa5624c72ad22b83bb2f8)
 * [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)
