@@ -512,6 +512,8 @@ Be ready to dive deep and acquire advanced skills for effectively prompting and 
 
 ### [9. Top Resources to Master Vector Databases & Building a Vector Storage](https://open.substack.com/pub/todatabeyond/p/6-resources-to-master-vector-databases?utm_campaign=post-expanded-share&utm_medium=web) ###
 
+<img width="4224" height="2272" alt="image" src="https://github.com/user-attachments/assets/88d51bf1-73df-4787-9222-1224162254fa" />
+
 **[1. Vector Databases: from Embeddings to Applications: ](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/)** This course will help you gain the knowledge to make informed decisions about when to apply vector databases to your applications. You’ll explore: how to use vector databases and LLMs to gain deeper insights into your data, build labs that show how to form embeddings and use several search techniques to find similar embeddings, and explore algorithms for fast searches through vast datasets and build applications ranging from RAG to multilingual search.
 
 **[2. Building Applications with Vector Databases: ](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/)** In this course, you’ll explore the implementation of six applications using vector databases: 
