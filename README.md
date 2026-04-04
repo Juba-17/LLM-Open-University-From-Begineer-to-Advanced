@@ -529,6 +529,8 @@ Be ready to dive deep and acquire advanced skills for effectively prompting and 
 **[5. Sentence Transformers Library: ](https://huggingface.co/models?library=sentence-transformers)** Sentence Transformers library is a popular Python framework for state-of-the-art sentence, text, and image embeddings. The initial work is described in our paper Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. You can use this framework to compute sentence/text embeddings for more than 100 languages. These embeddings can then be compared, e.g., with cosine-similarity to find sentences with a similar meaning. This can be useful for semantic textual similarity, semantic search, or paraphrase mining. The framework is based on PyTorch and Transformers and offers a large collection of pre-trained models tuned for various tasks. Further, it is easy to fine-tune your models.
 
 **[6. MTEB Leaderboard:](https://huggingface.co/spaces/mteb/leaderboard)** MTEB Leaderboard is a leaderboard for embedding models, so you can compare different embedding models to use.
+
+
 ------------------------------
 
 * [Top Resources to Master Vector Databases & Building a Vector Storage](https://levelup.gitconnected.com/6-resources-to-master-vector-databases-building-a-vector-storage-8d94ca1e3897?sk=1447d3e09380b72ded2edd380e354f22)
