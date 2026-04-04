@@ -495,7 +495,23 @@ Furthermore, the section identifies influential individuals and content creators
 
 -------------------------------------------
 ## Part III: Building LLMs Production Applications ## 
-* [Best Resoruces to Learn Prompt Engineering](https://levelup.gitconnected.com/5-best-resoruces-to-learn-prompt-engineering-7a0ffb459324?sk=cf149a0c227e5ece367ab1405827498b)
+
+### 8.[Best Resoruces to Learn Prompt Engineering](https://open.substack.com/pub/todatabeyond/p/5-best-resoruces-to-learn-prompt?utm_campaign=post-expanded-share&utm_medium=web) ###
+
+Prompt engineering, an emerging field, focuses on the development and refinement of prompts to enhance the utilization of language models (LMs) across diverse applications and research domains.
+Proficiency in prompt engineering contributes to a deeper comprehension of the strengths and weaknesses inherent in large language models (LLMs). Researchers leverage prompt engineering to enhance the performance of LLMs in tasks ranging from commonplace to intricate, including question-answering and arithmetic reasoning. Meanwhile, developers employ prompt engineering to craft resilient and efficient prompting techniques that seamlessly interface with LLMs and other tools.
+Motivated by the high interest in developing with LLMs, in this section, I will share five resources that will help you understand prompt engineering and learn how to write better prompts.
+
+1. **[Awesome GPT Prompt Engineering GitHub Repository:](https://github.com/snwfdhmp/awesome-gpt-prompt-engineering)** This is a curated list of awesome resources, tools, and other shiny things for GPT Prompt Engineering.
+2. **[Prompt Engineering Guide:](https://maven.com/dair-ai/prompt-engineering-llms)**   Elvis Saravia has created this Prompt Engineering Guide that contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs.
+3. **[Prompt Engineering for LLMs](https://maven.com/dair-ai/prompt-engineering-llms)**: Prompt Engineering for LLMs is a 4-day hands-on course that teaches how to efficiently and effectively use LLMs. It covers the best and latest prompting techniques that you can apply to a variety of use cases that range from building long article summarizers to prompt injection detectors to LLM-powered evaluators.
+Be ready to dive deep and acquire advanced skills for effectively prompting and building with LLMs. By the end of the course, the goal is NOT to teach you the “10 best prompts”. The goal is for you to learn how to apply advanced prompting techniques to help you grow in your career, build personal projects, or build advanced LLM-powered products.
+4. **[Maximizing the Potential of LLMs: A Guide to Prompt Engineering:](https://dzone.com/articles/maximizing-the-potential-of-llms-a-guide-to-prompt)** LLMs have rapidly improved in recent years, with LLMs such as GPT-3 and GPT-4 taking center stage. These models have become popular due to their ability to perform a great variety of tasks with incredible skill. Also, as the number of parameters of these models (in the billions!) has increased, these models have unpredictably gained new abilities. In this article, you will explore LLMs, the tasks they can perform, their shortcomings, and various prompt engineering strategies.
+5. **[ChatGPT Prompt Engineering for Developers:](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)** In ChatGPT Prompt Engineering for Developers, you will learn how to use a large language model (LLM) to quickly build new and powerful applications. Using the OpenAI API, you’ll be able to quickly build capabilities that teaches you to innovate and create value in ways that were cost-prohibitive, highly technical, or simply impossible before now. This short course, taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks.
+
+   
+
+
 * [Top Resources to Master Vector Databases & Building a Vector Storage](https://levelup.gitconnected.com/6-resources-to-master-vector-databases-building-a-vector-storage-8d94ca1e3897?sk=1447d3e09380b72ded2edd380e354f22)
 * [Top Resources to Master RAG: From Basic Level to Advanced](https://pub.towardsai.net/top-resources-to-master-rag-from-basic-level-to-advanced-755a814d9348?sk=0e75d3790fbb62b5592b3858b4376cf8)
 * [Top Free Learning Resources to Master LLM Agents](https://levelup.gitconnected.com/top-free-learning-resources-to-master-llm-agents-477fad6fcf9c?sk=b345796e178fa5624c72ad22b83bb2f8)
