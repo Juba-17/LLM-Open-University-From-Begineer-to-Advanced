@@ -537,11 +537,59 @@ Be ready to dive deep and acquire advanced skills for effectively prompting and 
 
 ### [10. Master RAG: From Basic Level to Advanced](https://open.substack.com/pub/todatabeyond/p/top-resources-to-master-rag-from?utm_campaign=post-expanded-share&utm_medium=web) ###
 
+#### 10.1. Retrieval Augmented Generation Basics ####
 
-- What Is Retrieval-Augmented Generation, aka RAG?: A Comprehensive article by Nivida that introduces RAG and how it works.
-- RAG Applications with Llama-Index: This tutorial introduces you to Llma-Index and how to build production-ready RAG applications.
-- Building RAG Applications with LangChain: A compressive list of articles that walk you step by step through building RAG applications using LangChain.
-- LangChain — OpenAI’s RAG: Overview of the RAG strategies employed by OpenAI, including post-processing.
+<img width="700" height="349" alt="image" src="https://github.com/user-attachments/assets/79a6c4c0-ec4a-47c5-b879-45819008be57" />
+
+Learning Retrieval Augmented Generation (RAG) Basics entails grasping the fundamental concepts of merging retrieval and generation models in natural language processing. RAG involves understanding how retrieval mechanisms can enhance generative models by leveraging pre-existing knowledge bases to inform text generation.
+By acquiring knowledge of how to integrate retrieval techniques into the generation process, one can harness the power of structured information to produce more contextually relevant and coherent text outputs.
+Mastering RAG basics is crucial for advancing capabilities in various applications such as question answering, summarization, and content generation, as it represents a significant advancement in the field of language modeling.
+
+**Learning Resources:**
+
+- **[What Is Retrieval-Augmented Generation, aka RAG?:](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)** A Comprehensive article by Nvidia that introduces RAG and how it works.
+- **[RAG Applications with Llama-Index:](https://www.youtube.com/playlist?list=PLVEEucA9MYhNrD8TBI5UqM6WHPUlVv89w)** This tutorial introduces you to Llama-Index and how to build production-ready RAG applications.
+- **[Building RAG Applications with LangChain:](https://github.com/youssefHosni/Hands-On-LangChain-for-LLM-Applications-Development)** A comprehensive list of articles that walk you step by step through building RAG applications using LangChain.
+- **[LangChain — OpenAI’s RAG:](https://blog.langchain.com/applying-openai-rag/)** Overview of the RAG strategies employed by OpenAI, including post-processing.
+
+#### 10.2. More LangChains ####
+
+This step involves providing a comprehensive set of articles to deepen the understanding of LangChain concepts. It serves as a foundation for exploring the intricacies of LangChain technology.
+Key topics covered include LangChain Query Construction, which offers insights into effective query construction methods for information retrieval. Additionally, a tutorial on LangChain SQL guides readers on interfacing with SQL databases using Large Language Models (LLMs), covering text-to-SQL conversion and introducing an optional SQL agent for seamless interaction. These resources aim to impart a holistic understanding of LangChain fundamentals and practical applications, enabling readers to tackle complex language-based tasks more proficiently.
+
+**Learning Resources:**
+
+- **[Basics of LangChain:](https://github.com/youssefHosni/Hands-On-LangChain-for-LLM-Applications-Development)** A comprehensive set of articles that introduces you to the most important LangChain concepts.
+- **[LangChain — Query Construction:](https://blog.langchain.com/query-construction/)** A blog post about different types of query construction.
+- **[LangChain — SQL:](https://docs.langchain.com/oss/python/langchain/rag)** Tutorial on how to interact with SQL databases with LLMs, involving Text-to-SQL and an optional SQL agent.
+
+
+#### 10.3. Advanced RAG ####
+
+<img width="875" height="472" alt="image" src="https://github.com/user-attachments/assets/05025b4e-c8db-4b48-bedd-d95071ac6a0e" />
+
+
+This learning step offers a range of learning resources aimed at enhancing skills in Retrieval Augmented Generation. Deep Learning.ai provides a short course titled “Advanced Retrieval for AI with Chroma,” focusing on identifying and improving queries through large language models (LLMs) and embedding fine-tuning with user feedback.
+Additionally, Sam Witteveen’s advanced RAG tutorial series covers various advanced topics, including Self Querying Retrieval, Parent Document Retriever, Hybrid Search with BM25 & Ensembles, Contextual Compressors & Filters, HyDE (Hypothetical Document Embeddings), and RAG Fusion. These resources provide learners with in-depth knowledge and practical techniques to excel in the realm of Retrieval Augmented Generation.
+
+**Learning Resources:**
+- **[Advanced Retrieval for AI with Chroma:](https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/)** This is a short course provided by Deep Leanring.ai in which you will learn how to recognize when queries are producing poor results, how to use a large language model (LLM) to improve your queries, and how to fine-tune your embeddings with user feedback.
+- **[Advanced RAG by Sam Witteveen:](https://www.youtube.com/watch?si=bYaYG03OE6vG4DHE&v=f4LeWlt3T8Y&feature=youtu.be)** Throughout this advanced RAG series of tutorials, you will learn: Self-Querying Retrieval, Parent Document Retriever, Hybrid Search BM25 & Ensembles, Contextual Compressors & Filters, HyDE —Hypothetical Document Embeddings, and Advanced RAG 06 — RAG Fusion
+
+
+#### 10.4. RAG Evaluation #### 
+<img width="875" height="511" alt="image" src="https://github.com/user-attachments/assets/3877866e-2024-4ab7-a95b-3f49f853625c" />
+
+
+The combined resources of “RAG Pipeline — Metrics” and “Building and Evaluating Advanced RAG Applications” offer learners a comprehensive understanding of evaluating Retrieval Augmented Generation (RAG) systems. The former introduces essential evaluation metrics, while the latter delves into advanced retrieval methods, evaluation techniques, and the RAG triad for assessing relevance and accuracy. This holistic approach equips learners with the skills to effectively evaluate and optimize RAG systems in various applications.
+
+**Learning Resources:**
+
+- **[RAG Pipeline — Metrics:](https://docs.ragas.io/en/stable/concepts/metrics/index.html)** This article introduces you to the main metrics used to evaluate RAG pipelines.
+- **[Building and Evaluating Advanced RAG Applications:](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)** This course delves into advanced retrieval methods, including sentence-window retrieval and auto-merging retrieval, which outperform the baseline RAG pipeline. It also covers evaluation techniques and experiment tracking to iteratively enhance the RAG pipeline’s performance. Furthermore, the course explores the RAG triad — Context Relevance, Groundedness, and Answer Relevance — as methods for assessing the relevance and accuracy of responses generated by large language models (LLMs).
+------------------------------
+
+
 
 
 ------------------------------
