@@ -1,4 +1,4 @@
-# LLM-Roadmap-From-Beginner-to-Advanced
+# LLM-University-From-Begineer-to-Advanced
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
 Large Language Models (LLMs) have transformed the landscape of AI, driving advancements in natural language processing and generating human-like text with unprecedented accuracy. It is now becoming an essential skill if you are joining the AI market, and most of the open positions will require LLM-related skills. Whether you're a beginner eager to dip your toes into the fascinating world of LLMs or an advanced practitioner aiming to refine your skills, this comprehensive roadmap will guide you through every stage of mastering these powerful models.
