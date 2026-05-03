@@ -677,7 +677,7 @@ In this section, you’ll learn how to use FlashAttention-2 (a more memory-effic
 
 ### 12.4. LLM Inference Optimization Libraries & Tools ###
 
-In the last section, you will explore and compare the features and capabilities of leading LLM libraries for inference Optimization. In addition to exploring you will explore how to optimize OpenAI in inference and finally, you will explore the future trends in this field.
+In the last section, you will explore and compare the features and capabilities of leading LLM libraries for inference Optimization. In addition to exploring you will explore how to optimize OpenAI in inference, and finally, you will explore the future trends in this field.
 
 **Learning Resources:**
 
@@ -690,11 +690,34 @@ Page](https://youtu.be/R_yhJfHKvIo?si=pdF8yvKY0FBxcpHu)
 
 ------------------------------
 
+## [13. What is LLMOps and How to Get Started With It](https://open.substack.com/pub/todatabeyond/p/what-is-llmops-and-how-to-get-started?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
+
+LLMOps is primarily focused on enhancing operational capabilities and establishing the necessary infrastructure for refining existing foundational models and seamlessly integrating these optimized models into products.
+Although LLMOps may not seem groundbreaking to most observers within the MLOps community, it serves as a specialized subset within the broader MLOps domain. A more specific definition can elucidate the intricate requirements involved in fine-tuning and deploying these models effectively.
+
+Foundational models, such as GPT-3 with its massive 175 billion parameters, demand substantial amounts of data and compute resources for training. While fine-tuning these models may not require the same scale of data or computational power, it remains a significant task that necessitates robust infrastructure capable of parallel processing and handling large datasets.
+
+This section delves into essential resources to help initiate your journey into LLMOps, providing valuable insights and guidance for getting started effectively.
+LLMOps consists of two parts:
+
+1. **Large Language Models:** LLM-as-a-Service is where a vendor offers the LLM as an API on their infrastructure. This is how primarily closed-source models are delivered. Custom LLM stack is a broader category of tools necessary for fine-tuning and deploying proprietary solutions built on top of open-source models.
+2. **Prompt Engineering tools:** enable in-context learning instead of fine-tuning at lower costs and without using sensitive data. Vector Databases retrieve contextually relevant information for certain prompts. Prompt Execution enables optimizing and improving the model output by managing prompt templates to build chain-like sequences of relevant prompts. Prompt Logging, Testing, and Analytics … Let’s just say it’s an emerging space that has no categories yet.
+
+<img width="875" height="717" alt="image" src="https://github.com/user-attachments/assets/47947028-09e8-4883-82df-a9c47d2f8038" />
+
+**Learning Resources:**
+
+- **[Building LLM Applications for Production](https://huyenchip.com/2023/04/11/llm-engineering.html):** It’s easy to build LLMs, but very hard to make something production-ready with them. This article by Chip Huyen covers how to put LLMs into production.
+- **[Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps):** This GitHub repo contains a curated list of the best LLMOps resources and tools for developers.
+- **[LLMOps Course](https://www.deeplearning.ai/short-courses/llmops/):** In this course, you’ll go through the LLMOps pipeline of pre-processing training data for supervised instruction tuning, and adapt a supervised tuning pipeline to train and deploy a custom LLM. This is useful in creating an LLM workflow for your specific application. For example, create a question-answer chatbot tailored to answer Python coding questions, which you’ll do in this course.
+- **[Automated Testing for LLMOps](https://www.deeplearning.ai/short-courses/automated-testing-llmops/):** In this course, you will learn how to create a continuous integration (CI) workflow to evaluate your LLM applications at every change for faster, safer, and more efficient application development.
+When building applications with generative AI, model behavior is less predictable than traditional software. That’s why systematic testing can make an even bigger difference in saving you development time and cost.
+Continuous integration, a key part of LLMOps, is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix. With a robust automated testing pipeline, you’ll be able to isolate bugs before they accumulate — when they’re easier and less costly to fix. Automated testing lets your team focus on building new features so that you can iterate and ship products faster.
 
 
+------------------------------
 * [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)
 * [Deploying LLMs: Top Learning & Educational Resources to Get Started](https://levelup.gitconnected.com/deploying-llms-top-learning-educational-resources-to-get-started-4db8c6034dc5?sk=5482bff8287673630144390bda4721d4)
-* [What is LLMOps and How to Get Started With It](https://levelup.gitconnected.com/what-is-llmops-and-how-to-get-started-with-it-04002c25e081?sk=f127154bd466cca6b5aae3ce88774f6e)
 * [Securing LLMs: Best Learning & Educational Resources](https://levelup.gitconnected.com/securing-llms-best-learning-educational-resources-b9638c063c92?sk=0ba4ddeb4998f310509e99ec3d3d93b9)
 
 ## Part IV: Building Your LLM Portfolio Projects ##
