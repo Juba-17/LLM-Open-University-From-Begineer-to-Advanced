@@ -715,7 +715,7 @@ When building applications with generative AI, model behavior is less predictabl
 Continuous integration, a key part of LLMOps, is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix. With a robust automated testing pipeline, you’ll be able to isolate bugs before they accumulate — when they’re easier and less costly to fix. Automated testing lets your team focus on building new features so that you can iterate and ship products faster.
 
 ------------------------------
-## 14. Securing LLMs: Best Learning & Educational Resources ##
+## [14. Securing LLMs: Best Learning & Educational Resources](https://open.substack.com/pub/todatabeyond/p/securing-llms-best-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
 
 Large Language Models (LLMs) represent a revolutionary advancement in artificial intelligence, yet their deployment introduces significant security challenges. This section provides a comprehensive resource for developers, engineers, architects, and managers seeking to fortify their understanding and defenses against potential vulnerabilities in LLM applications. These resources are indispensable for anyone involved in the development, deployment, or management of LLM applications. 
 
@@ -728,12 +728,72 @@ Large Language Models (LLMs) represent a revolutionary advancement in artificial
 - **[Quality and Safety for LLM Applications](https://www.coursera.org/projects/quality-and-safety-for-llm-applications):** In this course, you’ll explore new metrics and best practices to monitor your LLM systems and ensure safety and quality.
 - **[Red Teaming LLM Applications](https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/):** In this course, you’ll attack various chatbot applications using prompt injections to see how the system reacts and understand security failures. LLM failures can lead to legal liability, reputational damage, and costly service disruptions. This course helps you mitigate these risks proactively. Learn industry-proven red teaming techniques to proactively test, attack, and improve the robustness of your LLM applications. 
 - **[LLM Security: A comprehensive list of resources and papers](https://llmsecurity.net/):** LM security is the investigation of the failure modes of LLMs in use, the conditions that lead to them, and their mitigations. It contains a curated list of links to large language model security content — research, papers, and news — posted by llm_sec
+------------------------------
+
+## [15. Deploying LLMs: Top Learning & Educational Resources to Get Started](https://open.substack.com/pub/todatabeyond/p/deploying-llms-top-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
+
+Deploying Large Language Models (LLMs) is pivotal in leveraging their capabilities across various applications, from enhancing user experiences to addressing privacy concerns. There are four distinct deployment techniques: local, demo, server, and edge deployment.
+
+In this section, you will be provided with a selection of learning resources for each deployment technique, equipping readers with the knowledge needed to navigate and implement these techniques effectively.
+The section begins by emphasizing the significance of local deployment, offering insights into five free tools for running LLMs locally on personal devices. It then delves into demo deployment, where readers can learn to build interactive applications with minimal coding experience. Server deployment is subsequently addressed, guiding readers through the process of deploying LLMs using cloud platforms and containers. Finally, the article elucidates edge deployment, highlighting the benefits of embedding LLMs directly into real-world systems and providing resources for implementing this approach.
+
+This comprehensive resource is tailored for individuals seeking to harness the power of LLMs across diverse deployment scenarios. Whether you are a novice exploring local deployment or an experienced developer venturing into edge computing, this article offers invaluable learning materials to accelerate your journey. Designed to empower AI enthusiasts, developers, and researchers alike, this article serves as a roadmap for deploying LLMs effectively and efficiently.
+
+### 15.1. Local Deployment ###
+
+While accessing LLM-based chatbots online is simple with just an internet connection and a good browser, it comes with potential privacy risks. For example, OpenAI stores your interactions and metadata to improve its models, raising concerns for privacy-conscious users. Opting to use these models locally provides a solution for those seeking greater control over their data.
+In this section, you will explore five methods to utilize large language models (LLMs) locally. Compatible across major operating systems, these tools can be swiftly downloaded and installed. With locally-run LLMs, you retain control over model selection and can easily access models from the HuggingFace hub. Moreover, granting access to project folders enables context-aware responses.
+
+**Learning Resources:**
+
+- [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506)
+
+### 15.2. Demo deployment ###
+
+<img width="875" height="666" alt="image" src="https://github.com/user-attachments/assets/16455754-7dfc-46d5-85c0-fff504d34c65" />
 
 
+In this section, you will learn how you can, with just a few lines of code, create a user-friendly app (usable for non-coders) to take input text, then apply different tasks with an open-source large language model, and display the output. By the end of the course, you’ll gain the practical knowledge to rapidly build interactive apps and demos to validate your project and ship faster.
+
+**Learning Resources:**
+- [Streamlit — Build a basic LLM app](https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps)
+- [Building Generative AI Applications with Gradio](https://www.deeplearning.ai/short-courses/building-generative-ai-applications-with-gradio)
+- [Serving an LLM Application as an API Endpoint using FastAPI in Python](https://www.datacamp.com/tutorial/serving-an-llm-application-as-an-api-endpoint-using-fastapi-in-python)
+- [Deploying ML Models in 60 Minutes using Python, Flask & Render | Step-by-Step Tutorial](https://www.youtube.com/watch?v=rgr_aCg-338&t=2s)
+
+
+### 15.3. Server deployment ###
+
+<img width="875" height="473" alt="image" src="https://github.com/user-attachments/assets/6361533a-108c-4404-9ced-2e7d6dce3b8a" />
+
+
+Deploying Large Language Models (LLMs) is a step towards enhancing user experience. But knowing where to start and which aspects to consider before LLM deployment is essential. LLMs have been instrumental in powering everything from machine translation to content creation to virtual assistants and chatbots.
+In this section, you will learn how to deploy LLMs using Amazon Bedrock, Amazon SageMaker, and the Hugging Face inference container.
+
+**Learning Resources:**
+
+- [Serverless LLM apps with Amazon Bedrock](https://learn.deeplearning.ai/courses/serverless-LLM-apps-amazon-bedrock/lesson/fj0hm/introduction)
+- [HF LLM Inference Container](https://huggingface.co/blog/sagemaker-huggingface-llm)
+- [Philschmid blog](https://www.philschmid.de/)
+- [Build Customize and Deploy LLMs at scale on Azure with NVIDIA NeMo | DISFP08](https://www.youtube.com/watch?v=QWvrCuuFsjg)
+
+### 15.4. Edge deployment ###
+<img width="875" height="219" alt="image" src="https://github.com/user-attachments/assets/30fb6bd8-5076-4048-a419-fdce5e097b7e" />
+
+Running LLMs on the edge is of great importance. By embedding LLMs directly into real-world systems such as the Copilot services (coding, smart reply, and office) on laptops, in-car entertainment systems, vision-language assistants in robots, or spaceship control interfaces, users can access instant responses and services without relying on a stable internet connection.
+Moreover, this approach alleviates the inconvenience of queuing delays often associated with cloud services. As such, running LLMs on the edge enhances user experience and addresses privacy concerns, as sensitive data remains localized and reduces the risk of potential breaches.
+In this learning section, you will learn how to deploy LLMs on edge devices using [MLC](https://blog.mlc.ai/), [TinyChat](https://hanlab.mit.edu/blog/tinychat), and the [NVIDIA IGX Orin Developer Kit](https://developer.nvidia.com/blog/deploy-large-language-models-at-the-edge-with-nvidia-igx-orin-developer-kit/).
+
+**Learning Resources:**
+
+- [Bringing Open Large Language Models to Consumer Devices](https://blog.mlc.ai/2023/05/22/bringing-open-large-language-models-to-consumer-devices)
+- [Bringing Hardware Accelerated Language Models to Android Devices](https://blog.mlc.ai/2023/05/08/bringing-hardware-accelerated-language-models-to-android-devices)
+- [TinyChat: Large Language Model on the Edge](https://hanlab.mit.edu/blog/tinychat)
+- [Deploy Large Language Models at the Edge with NVIDIA IGX Orin Developer Kit](https://developer.nvidia.com/blog/deploy-large-language-models-at-the-edge-with-nvidia-igx-orin-developer-kit/)
+- [Bringing GenAI Offline: running SLMs like Phi-2/Phi-3 and Whisper Models on Mobile Devices](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bringing-genai-offline-running-slm-s-like-phi-2-phi-3-and/ba-p/4128056)
 ------------------------------
 * [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)
-* [Deploying LLMs: Top Learning & Educational Resources to Get Started](https://levelup.gitconnected.com/deploying-llms-top-learning-educational-resources-to-get-started-4db8c6034dc5?sk=5482bff8287673630144390bda4721d4)
-* [Securing LLMs: Best Learning & Educational Resources](https://levelup.gitconnected.com/securing-llms-best-learning-educational-resources-b9638c063c92?sk=0ba4ddeb4998f310509e99ec3d3d93b9)
+
 
 ## Part IV: Building Your LLM Portfolio Projects ##
 * [10 Large Language Models Projects To Build Your Portfolio](https://levelup.gitconnected.com/10-large-language-models-projects-to-build-your-portfolio-d7974569aad4?sk=d59e963806e3ccf5fdcd3b5c0f715f48)
