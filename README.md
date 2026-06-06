@@ -51,7 +51,8 @@ Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Ala
 
 --------------------------------------------------
 ## Part II: Building & Training LLM From Scratch ##
-<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/5f408c67-cefd-4fac-b395-20ceb3db72da" />
+<img width="1672" height="941" alt="ChatGPT Image Jun 6, 2026, 03_11_31 PM" src="https://github.com/user-attachments/assets/d1f44e48-12ec-46b9-9463-ef755abc3313" />
+
 
 
 The second section guides you through the complete process of training and fine-tuning a Large Language Model (LLM) from scratch, covering every crucial step from data preparation to ensuring optimal model performance. This section begins with the best resources for building datasets to train LLMs, providing comprehensive guidance on collecting, cleaning, and organizing data for effective model training.
