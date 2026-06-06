@@ -1,6 +1,12 @@
 # LLM-University-From-Begineer-to-Advanced
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
+
+[![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?style=for-the-badge&logo=substack&logoColor=FF6719)](https://youssefh.substack.com/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yousefhosni)
+[![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/youssef19)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UCeEcSgRzYFuVt-2Yk1ULdhQ)
+
 Large Language Models (LLMs) are now an important part of modern AI systems. They are used in chatbots, search systems, coding assistants, data analysis tools, agents, and many other applications. Because of this, LLM-related skills are becoming increasingly important for data scientists, machine learning engineers, AI engineers, and software developers working in the AI field.
 
 This repository provides a structured roadmap for learning LLMs from beginner to advanced level. The goal is to help you understand the core concepts, learn how LLMs are built and adapted, and practice building real applications with them.
