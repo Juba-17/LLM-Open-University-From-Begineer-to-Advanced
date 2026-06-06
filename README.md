@@ -925,6 +925,19 @@ With Chat with RTX, you can run LLaMA and Mistral models locally on your laptop.
 
 ## [16. Master MCP: The Best Free Learning Resources](https://open.substack.com/pub/todatabeyond/p/master-mcp-the-best-free-learning?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web)
 
+Model Context Protocol (MCP) is becoming more and more one of the most important standards in context-aware AI production. In this article, we recommend resources to break down what MCP is, why it matters, and how you can start working with it, whether you're new to it or want to learn more about it.
+From novice-friendly tutorials to tool-focused demo projects, community-created courses, and practice guides, this chapter collects the best of the best free tools that can help you become an MCP master and create AI applications seamlessly integrated with external data, tools, and services.
+
+**Learning Resources:**
+
+- [**Everything you need to know about MCP**](https://replit.com/blog/everything-you-need-to-know-about-mcp): The first learning resource is a beginner-friendly introduction to MCP by Replit. It explains how MCP works in simple, accessible language, making it easy to understand without requiring deep technical knowledge of large language models. It’s a great starting point for quickly grasping the key concepts and components of MCP.
+- [**Model Context Protocol (MCP): A Guide With Demo Project:**](https://www.datacamp.com/tutorial/mcp-model-context-protocol) In this blog, you will be guided through building an MCP-powered PR review server that integrates with Claude Desktop. This server will: Fetch PR details and changed files from GitHub, analyze code changes using the Claude Desktop application, and generate PR review summaries and suggestions
+Save reviews to Notion. You will use the Model Context Protocol (MCP) to standardize communication between the server and Claude Desktop, making it modular and scalable.
+- [**Model Context Protocol (MCP) Hugging Face Course:**](https://huggingface.co/learn/mcp-course/en/unit0/introduction) This free course will take you on a journey, from beginner to informed, in understanding, using, and building applications with MCP. In this course, you will: Study Model Context Protocol in theory, design, and practice, Learn to use established MCP SDKs and frameworks, Share your projects and explore applications created by the community, Participate in challenges where you will evaluate your MCP implementations against those of other students, Earn a certificate of completion by completing assignments. At the end of this course, you’ll understand how MCP works and how to build your own AI applications that leverage external data and tools using the latest MCP standards.
+- [**MCP: Build Rich-Context AI Apps with Anthropic**](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) The MCP: Build Rich-Context AI Apps with Anthropic, a short course created in partnership with Anthropic and taught by Elie Schoppik. In this hands-on course, you’ll learn the core concepts of MCP and how to implement it in your AI Application. You’ll make a chatbot MCP-compatible, build and deploy an MCP server, and connect the chatbot to your MCP server and other open-source servers.
+- [**Official MCP Documents:**](https://modelcontextprotocol.io/docs/getting-started/intro) The official MCP docs are a good resource to learn the fundamentals, a tutorial to create your first MCP server, debugging, and inspection instructions.
+- [**Awesome MCP Servers: A curated list of awesome Model Context Protocol (MCP) servers:**](https://github.com/punkpeye/awesome-mcp-servers) A curated list of awesome Model Context Protocol (MCP) servers. It covers the following: What is MCP?, Clients, Tutorials, Community, Legend, Server Implementations, Frameworks, Tips & Tricks
+
 
 
 
