@@ -21,7 +21,7 @@ Each section builds upon the previous one, ensuring a smooth and logical progres
 
 ## Part I: LLM Basics & Architecture ##
 
-<img width="1429" height="771" alt="image" src="https://github.com/user-attachments/assets/9e8cd3bc-86d6-439d-97eb-2d904c09fc7c" />
+<img width="1672" height="941" alt="ChatGPT Image Jun 6, 2026, 03_05_20 PM" src="https://github.com/user-attachments/assets/beb5a5bb-5e88-4421-af5f-9f6e3ddff6c1" />
 
 
 
