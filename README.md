@@ -797,7 +797,7 @@ In this learning section, you will learn how to deploy LLMs on edge devices usin
 - [Bringing GenAI Offline: running SLMs like Phi-2/Phi-3 and Whisper Models on Mobile Devices](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bringing-genai-offline-running-slm-s-like-phi-2-phi-3-and/ba-p/4128056)
 ------------------------------
 
-### [15.5. Five Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)###
+### [16. Five Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)###
 
 While accessing LLM-based chatbots online is simple with just an internet connection and a good browser, it comes with potential privacy risks. For example, OpenAI stores your interactions and metadata to improve its models, raising concerns for privacy-conscious users. Opting to use these models locally provides a solution for those seeking greater control over their data.
 
@@ -920,6 +920,14 @@ final_result = model_output["choices"][0]["text"].strip()
 <img width="875" height="476" alt="image" src="https://github.com/user-attachments/assets/d8a9efd0-b79b-4714-a3d4-c600bc9575cc" />
 
 With Chat with RTX, you can run LLaMA and Mistral models locally on your laptop. It’s a fast and efficient application that can even learn from documents you provide or YouTube videos. However, it’s important to note that Chat with RTX relies on TensorRTX-LLM, which is only supported on 30 series GPUs or newer.
+
+------------------------
+
+## [16. Master MCP: The Best Free Learning Resources](https://open.substack.com/pub/todatabeyond/p/master-mcp-the-best-free-learning?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web)
+
+
+
+
 
 ## Part IV: Building Your LLM Portfolio Projects ##
 
