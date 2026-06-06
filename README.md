@@ -796,8 +796,130 @@ In this learning section, you will learn how to deploy LLMs on edge devices usin
 - [Deploy Large Language Models at the Edge with NVIDIA IGX Orin Developer Kit](https://developer.nvidia.com/blog/deploy-large-language-models-at-the-edge-with-nvidia-igx-orin-developer-kit/)
 - [Bringing GenAI Offline: running SLMs like Phi-2/Phi-3 and Whisper Models on Mobile Devices](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bringing-genai-offline-running-slm-s-like-phi-2-phi-3-and/ba-p/4128056)
 ------------------------------
-* [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)
 
+### [15.5. Five Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)###
+
+While accessing LLM-based chatbots online is simple with just an internet connection and a good browser, it comes with potential privacy risks. For example, OpenAI stores your interactions and metadata to improve its models, raising concerns for privacy-conscious users. Opting to use these models locally provides a solution for those seeking greater control over their data.
+
+In this section, we’ll explore five methods to utilize large language models (LLMs) locally. Compatible across major operating systems, these tools can be swiftly downloaded and installed.
+
+With locally run LLMs, you retain control over model selection and can easily access models from the Hugging Face hub. Moreover, granting access to project folders enables context-aware responses
+
+#### 1. GPT4All ####
+
+<img width="875" height="299" alt="image" src="https://github.com/user-attachments/assets/d8cfc2f5-531e-4207-9567-02d325adc85e" />
+
+[GPT4All](https://www.nomic.ai/gpt4all) is open-source software that enables you to use the state-of-the-art open-source LLM on your local machine with ease and in simple steps. To get started, simply download GPT4ALL from the website and install it on your system.
+
+<img width="875" height="177" alt="image" src="https://github.com/user-attachments/assets/dd916739-ec9a-438e-b9d8-c8b3ffcc6b15" />
+
+
+After downloading and installing, you should be able to find the application in the directory you specified in the installer. You will find a desktop icon for GPT4All after installation.
+Next, choose the model from the panel that suits your needs and start using it. If you have CUDA (Nvidia GPU) installed, GPT4ALL will automatically start using your GPU to generate quick responses of up to 30 tokens per second. 
+
+<img width="875" height="479" alt="image" src="https://github.com/user-attachments/assets/afa551e8-ba20-4d25-a6c6-80cce08a3d1d" />
+
+
+You can provide access to multiple folders containing important documents and code, and GPT4ALL will generate responses using Retrieval-Augmented Generation. GPT4ALL is user-friendly, fast, and popular among the AI community.
+
+<img width="875" height="584" alt="image" src="https://github.com/user-attachments/assets/a67a2dd0-d9d5-43bd-9704-9bb5ce8a5c65" />
+
+
+#### 2. LM Studio ####
+
+[LM Studio](https://lmstudio.ai/) is an easy-to-use desktop app for experimenting with local and open-source Large Language Models (LLMs). With LM Studio, you can:
+
+- Run LLMs on your laptop, entirely offline.
+- Use models through the in-app Chat UI or an OpenAI-compatible local server.
+- Download any compatible model files from Hugging Face repositories.
+- Discover new & noteworthy LLMs on the app’s home page.
+
+LM Studio offers several advantages over GPT4ALL. The user interface is excellent, and you can install any model from Hugging Face Hub with a few clicks. Additionally, it provides GPU offloading and other options that are not available in GPT4ALL. However, LM Studio is a closed-source program, and it doesn’t have the option to generate context-aware responses by reading project files.
+
+#### 3. Ollama ####
+
+Ollama provides a lightweight and user-friendly way to set up and run various open-source LLMs on your computer. This eliminates the need for complex configurations or relying on external servers, making it ideal for various purposes:
+- **Development:** It allows developers to experiment and iterate quickly on LLM projects without needing to deploy them to the cloud.
+- **Research:** Researchers can use Ollama to study LLM behavior in a controlled environment, facilitating in-depth analysis.
+- **Privacy:** Running LLMs locally ensures that your data never leaves your machine, which is crucial for sensitive information.
+
+Ollama comes with a pre-built library of trained language models, such as:
+
+- **Llama 2:** A large language model capable of various tasks like text generation, translation, and question answering.
+- **Mistral:** A factual language model trained on a massive dataset of text and code.
+- **Gemma:** A conversational language model designed for engaging dialogue.
+- **LLaVA:** A robust model trained for both chat and instruction use cases.
+
+This library allows you to easily integrate these pre-trained models into your applications, eliminating the need to train them from scratch and saving time and resources. Ollama accelerates running models using NVIDIA GPUs as well as modern CPU instruction sets such as AVX and AVX2 if available. No configuration or virtualization is required!
+
+In the example below, we can download Mistral LLM:
+
+<img width="770" height="255" alt="image" src="https://github.com/user-attachments/assets/9611d34c-0018-4810-9684-494890014563" />
+
+After the model is downloaded, we can start asking it and chatting with it:
+
+<img width="770" height="705" alt="image" src="https://github.com/user-attachments/assets/a7e21a51-81a1-494c-9c53-9e8642283ae2" />
+
+#### 4. LLaMA.cpp ####
+
+LLaMa.cpp was developed by Georgi Gerganov. It implements the Meta’s LLaMa architecture in efficient C/C++, and it is one of the most dynamic open-source communities around the LLM inference with more than 390 contributors, 43000+ stars on the official GitHub repository, and 930+ releases.
+Llama.cpp’s backbone is the original Llama model, which is also based on the transformer architecture. The authors of Llama leverage various improvements that were subsequently proposed and use different models such as PaLM.
+
+<img width="875" height="493" alt="image" src="https://github.com/user-attachments/assets/17eb2c1e-5f9f-4fc5-b316-12a12bc571ae" />
+
+You can install it using the following command: 
+
+`pip install llama-cpp-python` 
+
+Once it is installed, you can import it using the following command: 
+
+`from llama_cpp import Llama` 
+
+The Llama class imported above is the main constructor leveraged when using Llama.cpp, and it takes several parameters and is not limited to the ones below. The complete list of parameters is provided in the [official documentation](https://llama-cpp-python.readthedocs.io/en/latest/api-reference/#llama_cpp.Llama):
+
+- **model_path:** The path to the Llama model file being used
+- **prompt:** The input prompt to the model. This text is tokenized and passed to the model.
+- **device:** The device to use for running the Llama model; such a device can be either CPU or GPU.
+- **max_tokens:** The maximum number of tokens to be generated in the model’s response.
+- **stop:** A list of strings that will cause the model generation process to stop.
+- **temperature:** This value ranges between 0 and 1. The lower the value, the more deterministic the result. On the other hand, a higher value leads to more randomness, hence more diverse and creative output.
+- **top_p:** This is used to control the diversity of the predictions, meaning that it selects the most probable tokens whose cumulative probability exceeds a given threshold. Starting from zero, a higher value increases the chance of finding a better output but requires additional computations.
+- **echo:** A boolean used to determine whether the model includes the original prompt at the beginning (True) or does not include it (False)
+
+For instance, let’s consider that we want to use a large language model called <MY_AWESOME_MODEL> stored in the current working directory. The instantiation process will look like this:
+
+```python
+# Instantiate the model
+my_aweseome_llama_model = Llama(model_path="./MY_AWESOME_MODEL")
+
+prompt = "This is a prompt"
+
+# Define the parameters
+max_tokens = 100
+temperature = 0.3
+top_p = 0.1
+echo = True
+stop = ["Q", "\n"]
+
+model_output = my_aweseome_llama_model(
+    prompt,
+    max_tokens=max_tokens,
+    temperature=temperature,
+    top_p=top_p,
+    echo=echo,
+    stop=stop,
+)
+
+final_result = model_output["choices"][0]["text"].strip()
+```
+
+#### 5. NVIDIA Chat with RTX ####
+
+[ChatRTX](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/) is a demo app that lets you personalize a GPT LLM connected to your own content — docs, notes, or other data. Leveraging [RAG](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/), [TensorRT-LLM](https://developer.nvidia.com/blog/nvidia-tensorrt-llm-supercharges-large-language-model-inference-on-nvidia-h100-gpus/), and RTX acceleration, you can query a custom chatbot to quickly get contextually relevant answers. Because it all runs locally on your Windows RTX PC or workstation, you’ll get fast and secure results.
+
+<img width="875" height="476" alt="image" src="https://github.com/user-attachments/assets/d8a9efd0-b79b-4714-a3d4-c600bc9575cc" />
+
+With Chat with RTX, you can run LLaMA and Mistral models locally on your laptop. It’s a fast and efficient application that can even learn from documents you provide or YouTube videos. However, it’s important to note that Chat with RTX relies on TensorRTX-LLM, which is only supported on 30 series GPUs or newer.
 
 ## Part IV: Building Your LLM Portfolio Projects ##
 
