@@ -798,6 +798,8 @@ In this learning section, you will learn how to deploy LLMs on edge devices usin
 ------------------------------
 * [5 Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)
 
+<img width="1672" height="941" alt="ChatGPT Image Jun 6, 2026, 03_35_49 PM" src="https://github.com/user-attachments/assets/6835aa21-e3ae-4d49-bcc6-1f58d9357259" />
+
 
 ## Part IV: Building Your LLM Portfolio Projects ##
 * [10 Large Language Models Projects To Build Your Portfolio](https://levelup.gitconnected.com/10-large-language-models-projects-to-build-your-portfolio-d7974569aad4?sk=d59e963806e3ccf5fdcd3b5c0f715f48)
