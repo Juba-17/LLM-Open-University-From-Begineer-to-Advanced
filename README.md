@@ -35,10 +35,31 @@ Each section builds on the previous one, moving from fundamentals to training, t
 
 
 ### Table of Contents: ###
-- [Part I: LLM Basics & Architecture](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=LLM%20Portfolio%20Projects-,Part%20I%3A%20LLM%20Basics%20%26%20Architecture,-In%20the%20first)
-- [Part II: Building & Training LLM From Scratch](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=LLM%20Learning%20Path-,Part%20II%3A%20Building%20%26%20Training%20LLM%20From%20Scratch,-The%20second%20section)
-- [Part III: Building LLMs Production Applications](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=in%20these%20fields.-,Part%20III%3A%20Building%20LLMs%20Production%20Applications,-Best%20Resoruces%20to)
-- [Part IV: Building Your LLM Portfolio Projects](https://github.com/youssefHosni/LLM-Roadmap-From-Beginner-to-Advanced/blob/main/README.md#:~:text=Learning%20%26%20Educational%20Resources-,Part%20IV%3A%20Building%20Your%20LLM%20Portfolio%20Projects,-10%20Large%20Language)
+
+- [Part I: LLM Basics & Architecture](#part-i-llm-basics--architecture)
+  - [1. Articles](#1-articles)
+  - [2. YouTube Videos](#2-youtube-videos)
+  - [3. Courses](#3-courses)
+- [Part II: Building & Training LLM From Scratch](#part-ii-building--training-llm-from-scratch)
+  - [1. Best Resources on Building Datasets to Train LLMs](#1-best-resources-on-building-datasets-to-train-llms)
+  - [2. Practical Guide to LLM Fine-Tuning](#2-practical-guide-to-llm-fine-tuning)
+  - [3. Best Resources to Learn & Understand Evaluating LLMs](#3-best-resources-to-learn--understand-evaluating-llms)
+  - [4. Overview of LLM Quantization Techniques](#4-overview-of-llm-quantization-techniques--where-to-learn-each-of-them)
+  - [5. Top Resources to Learn & Understand RLHF & LLM Alignment](#5-top-resources-to-learn--understand-rlhf--llm-alignment)
+  - [6. Best Resources to Build & Understand Vision Language Models](#6-best-resources-to-build--understand-vision-language-models)
+  - [7. How to Stay Updated with LLM Research & Industry News?](#7-how-to-stay-updated-with-llm-research--industry-news)
+- [Part III: Building LLMs Production Applications](#part-iii-building-llms-production-applications)
+  - [8. Best Resources to Learn Prompt Engineering](#8-best-resources-to-learn-prompt-engineering)
+  - [9. Top Resources to Master Vector Databases & Building a Vector Storage](#9-top-resources-to-master-vector-databases--building-a-vector-storage)
+  - [10. Master RAG: From Basic Level to Advanced](#10-master-rag-from-basic-level-to-advanced)
+  - [11. Learning Resources to Master LLM Agents](#11-learning-resources-to-master-llm-agents)
+  - [12. Getting Started with LLM Inference Optimization](#12-getting-started-with-llm-inference-optimization-best-resources)
+  - [13. What is LLMOps and How to Get Started With It](#13-what-is-llmops-and-how-to-get-started-with-it)
+  - [14. Securing LLMs: Best Learning & Educational Resources](#14-securing-llms-best-learning--educational-resources)
+  - [15. Deploying LLMs: Top Learning & Educational Resources](#15-deploying-llms-top-learning--educational-resources-to-get-started)
+  - [16. Five Free Tools to Run LLMs Locally on Your Laptop](#16-five-free-tools-to-run-large-language-models-llm-locally-on-your-laptop)
+  - [17. Master MCP: The Best Free Learning Resources](#17-master-mcp-the-best-free-learning-resources)
+- [Part IV: Building Your LLM Portfolio Projects](#part-iv-building-your-llm-portfolio-projects)
 
 
 ## Part I: LLM Basics & Architecture ##
@@ -522,7 +543,7 @@ Furthermore, the section identifies influential individuals and content creators
 <img width="1672" height="941" alt="ChatGPT Image Jun 6, 2026, 03_29_27 PM" src="https://github.com/user-attachments/assets/53dbe0e2-9520-44c6-8693-c515eb75d28f" />
 
 
-### [8. Best Resoruces to Learn Prompt Engineering](https://open.substack.com/pub/todatabeyond/p/5-best-resoruces-to-learn-prompt?utm_campaign=post-expanded-share&utm_medium=web) ###
+### [8. Best Resources to Learn Prompt Engineering](https://open.substack.com/pub/todatabeyond/p/5-best-resoruces-to-learn-prompt?utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Prompt engineering, an emerging field, focuses on the development and refinement of prompts to enhance the utilization of language models (LMs) across diverse applications and research domains.
 Proficiency in prompt engineering contributes to a deeper comprehension of the strengths and weaknesses inherent in large language models (LLMs). Researchers leverage prompt engineering to enhance the performance of LLMs in tasks ranging from commonplace to intricate, including question-answering and arithmetic reasoning. Meanwhile, developers employ prompt engineering to craft resilient and efficient prompting techniques that seamlessly interface with LLMs and other tools.
@@ -599,7 +620,7 @@ This learning step offers a range of learning resources aimed at enhancing skill
 Additionally, Sam Witteveen’s advanced RAG tutorial series covers various advanced topics, including Self Querying Retrieval, Parent Document Retriever, Hybrid Search with BM25 & Ensembles, Contextual Compressors & Filters, HyDE (Hypothetical Document Embeddings), and RAG Fusion. These resources provide learners with in-depth knowledge and practical techniques to excel in the realm of Retrieval Augmented Generation.
 
 **Learning Resources:**
-- **[Advanced Retrieval for AI with Chroma:](https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/)** This is a short course provided by Deep Leanring.ai in which you will learn how to recognize when queries are producing poor results, how to use a large language model (LLM) to improve your queries, and how to fine-tune your embeddings with user feedback.
+- **[Advanced Retrieval for AI with Chroma:](https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/)** This is a short course provided by Deep Learning.ai in which you will learn how to recognize when queries are producing poor results, how to use a large language model (LLM) to improve your queries, and how to fine-tune your embeddings with user feedback.
 - **[Advanced RAG by Sam Witteveen:](https://www.youtube.com/watch?si=bYaYG03OE6vG4DHE&v=f4LeWlt3T8Y&feature=youtu.be)** Throughout this advanced RAG series of tutorials, you will learn: Self-Querying Retrieval, Parent Document Retriever, Hybrid Search BM25 & Ensembles, Contextual Compressors & Filters, HyDE —Hypothetical Document Embeddings, and Advanced RAG 06 — RAG Fusion
 
 
@@ -625,7 +646,7 @@ The first set of resources will cover the basics of agents and will help you bui
 
 **Learning Resources:**
 
-- **[Introduction to LLM Agents — Nvidia:](https://developer.nvidia.com/blog/introduction-to-llm-agents/)** The first resource is a comprehensive introduction blog to LLM Agents from Nvidia. The blog covers the following topics: What is an AI agent?, What is an AI agent?, and Agents for enterprise applications
+- **[Introduction to LLM Agents — Nvidia:](https://developer.nvidia.com/blog/introduction-to-llm-agents/)** The first resource is a comprehensive introduction blog to LLM Agents from Nvidia. The blog covers the following topics: What is an AI agent?, and Agents for enterprise applications
 - **[Large Language Model Agents — UC Berkeley:](https://llmagents-learning.org/f24)** The course first discusses fundamental concepts that are essential for LLM agents, including the foundation of LLMs, essential LLM abilities required for task automation, as well as infrastructures for agent development. It will also cover representative agent applications, including code generation, robotics, web automation, medical applications, and scientific discovery. Meanwhile, the course will discuss limitations and potential risks of current LLM agents and share insights into directions for further improvement.
 - **[AI Agent Mastery Bootcamp: From Architecture to Optimization — Arize AI:](https://www.youtube.com/playlist?list=PL86ARIu_ElO7HOm7cVgzfEs_NwSdfhHFA)** You will dive into the world of AI agent development in this comprehensive bootcamp. You’ll gain hands-on experience with the latest tools and techniques in AI agent development. From understanding core architectures to troubleshooting complex issues, our expert-led sessions will equip you with the knowledge and skills to build sophisticated AI agents that can tackle real-world challenges. You’ll learn how to navigate popular frameworks, optimize performance, and evaluate your agents effectively.
 
@@ -662,7 +683,7 @@ Now that you have learned the foundation, master the practicalities and build cu
   
 ------------------------------
 
-## [12. Getting Started with LLM Inference Optimization: Best Resources]([https://youssefh.substack.com/p/getting-started-with-llm-inference](https://open.substack.com/pub/todatabeyond/p/getting-started-with-llm-inference?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web))
+### [12. Getting Started with LLM Inference Optimization: Best Resources](https://open.substack.com/pub/todatabeyond/p/getting-started-with-llm-inference?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web)
 
 Combining layers in transformer models makes them bigger and better at understanding language tasks. But making these big models costs a lot to train and they need a lot of memory and computer power to use afterward.
 The most popular Large Language Models (LLM) today such as ChatGPT have billions of settings and sometimes they have to handle long pieces of text, which makes them even more expensive to use.
@@ -672,7 +693,7 @@ In this section, you will be provided with a comprehensive list of resources to 
 <img width="1999" height="1125" alt="image" src="https://github.com/user-attachments/assets/b3cefd12-bc29-4d42-bb87-fc367bbd9593" />
 
 
-### 12. Understanding LLM Inference Optimization ###
+### 12.1. Understanding LLM Inference Optimization ###
 Stacking transformer layers to create large models results in better accuracies, few-shot learning capabilities, and even near-human emergent abilities on a wide range of language tasks.
 These foundation models are expensive to train, and they can be memory- and compute-intensive during inference (a recurring cost). The most popular large language models (LLMs) today can reach tens to hundreds of billions of parameters in size and, depending on the use case may require ingesting long inputs (or contexts), which can also add expense.
 
@@ -716,7 +737,7 @@ Page](https://youtu.be/R_yhJfHKvIo?si=pdF8yvKY0FBxcpHu)
 
 ------------------------------
 
-## [13. What is LLMOps and How to Get Started With It](https://open.substack.com/pub/todatabeyond/p/what-is-llmops-and-how-to-get-started?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
+### [13. What is LLMOps and How to Get Started With It](https://open.substack.com/pub/todatabeyond/p/what-is-llmops-and-how-to-get-started?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ###
 
 LLMOps is primarily focused on enhancing operational capabilities and establishing the necessary infrastructure for refining existing foundational models and seamlessly integrating these optimized models into products.
 Although LLMOps may not seem groundbreaking to most observers within the MLOps community, it serves as a specialized subset within the broader MLOps domain. A more specific definition can elucidate the intricate requirements involved in fine-tuning and deploying these models effectively.
@@ -741,7 +762,7 @@ When building applications with generative AI, model behavior is less predictabl
 Continuous integration, a key part of LLMOps, is the practice of making small changes to software in development and thoroughly testing them to catch issues early when they are easier to fix. With a robust automated testing pipeline, you’ll be able to isolate bugs before they accumulate — when they’re easier and less costly to fix. Automated testing lets your team focus on building new features so that you can iterate and ship products faster.
 
 ------------------------------
-## [14. Securing LLMs: Best Learning & Educational Resources](https://open.substack.com/pub/todatabeyond/p/securing-llms-best-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
+### [14. Securing LLMs: Best Learning & Educational Resources](https://open.substack.com/pub/todatabeyond/p/securing-llms-best-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Large Language Models (LLMs) represent a revolutionary advancement in artificial intelligence, yet their deployment introduces significant security challenges. This section provides a comprehensive resource for developers, engineers, architects, and managers seeking to fortify their understanding and defenses against potential vulnerabilities in LLM applications. These resources are indispensable for anyone involved in the development, deployment, or management of LLM applications. 
 
@@ -756,7 +777,7 @@ Large Language Models (LLMs) represent a revolutionary advancement in artificial
 - **[LLM Security: A comprehensive list of resources and papers](https://llmsecurity.net/):** LM security is the investigation of the failure modes of LLMs in use, the conditions that lead to them, and their mitigations. It contains a curated list of links to large language model security content — research, papers, and news — posted by llm_sec
 ------------------------------
 
-## [15. Deploying LLMs: Top Learning & Educational Resources to Get Started](https://open.substack.com/pub/todatabeyond/p/deploying-llms-top-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ##
+### [15. Deploying LLMs: Top Learning & Educational Resources to Get Started](https://open.substack.com/pub/todatabeyond/p/deploying-llms-top-learning-and-educational?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web) ###
 
 Deploying Large Language Models (LLMs) is pivotal in leveraging their capabilities across various applications, from enhancing user experiences to addressing privacy concerns. There are four distinct deployment techniques: local, demo, server, and edge deployment.
 
@@ -819,7 +840,7 @@ In this learning section, you will learn how to deploy LLMs on edge devices usin
 - [Bringing GenAI Offline: running SLMs like Phi-2/Phi-3 and Whisper Models on Mobile Devices](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/bringing-genai-offline-running-slm-s-like-phi-2-phi-3-and/ba-p/4128056)
 ------------------------------
 
-### [16. Five Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf)###
+### [16. Five Free Tools to Run Large Language Models (LLM) Locally on Your Laptop](https://levelup.gitconnected.com/5-free-tools-to-run-large-language-models-llm-locally-on-your-laptop-9a359f1df506?sk=300f0008936ac81e2220fa4dbdb633bf) ###
 
 While accessing LLM-based chatbots online is simple with just an internet connection and a good browser, it comes with potential privacy risks. For example, OpenAI stores your interactions and metadata to improve its models, raising concerns for privacy-conscious users. Opting to use these models locally provides a solution for those seeking greater control over their data.
 
@@ -945,7 +966,7 @@ With Chat with RTX, you can run LLaMA and Mistral models locally on your laptop.
 
 ------------------------
 
-## [16. Master MCP: The Best Free Learning Resources](https://open.substack.com/pub/todatabeyond/p/master-mcp-the-best-free-learning?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web)
+### [17. Master MCP: The Best Free Learning Resources](https://open.substack.com/pub/todatabeyond/p/master-mcp-the-best-free-learning?r=1sqbmi&utm_campaign=post-expanded-share&utm_medium=web)
 
 Model Context Protocol (MCP) is becoming more and more one of the most important standards in context-aware AI production. In this article, we recommend resources to break down what MCP is, why it matters, and how you can start working with it, whether you're new to it or want to learn more about it.
 From novice-friendly tutorials to tool-focused demo projects, community-created courses, and practice guides, this chapter collects the best of the best free tools that can help you become an MCP master and create AI applications seamlessly integrated with external data, tools, and services.
