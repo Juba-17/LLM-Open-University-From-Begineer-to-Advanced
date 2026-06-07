@@ -1,4 +1,4 @@
-# LLM-University-From-Begineer-to-Advanced
+# LLM-Open-University-From-Begineer-to-Advanced
 A complete roadmap to master LLMs for absolute beginners to advanced 
 
 
