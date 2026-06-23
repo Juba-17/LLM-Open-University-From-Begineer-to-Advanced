@@ -147,11 +147,14 @@ Vector A: [1, 1, 1, 0]
 Vector B: [0, 1, 1, 1]
 ```
 
-**Why it matters:** It converts unstructured text into structured numerical vectors that computers can process. Despite being decades old, it still has use cases (e.g., complementing modern models for keyword matching).
+***Why it matters:*** It converts unstructured text into structured numerical vectors that computers can process. Despite being decades old, it still has use cases (e.g., complementing modern models for keyword matching).
 
 **Limitation:** Completely ignores word order and semantic meaning. "Dog bites man" and "Man bites dog" produce identical vectors.
 
-**Technical term:** The resulting numeric representations are called **vector representations** or **embeddings** (though BoW embeddings are sparse and non-semantic).
+**What is a Text Embedding?**
+In Language AI and NLP, an Embedding (specifically a text embedding) is a technique that converts human language—such as tokens, words, sentences, or entire documents—into a sequence of real numbers (called a Vector).
+
+The magic of embeddings is that they don’t just turn words into random numbers; they map them into a continuous Vector Space where geometric closeness reflects semantic similarity
 
 ---
 
