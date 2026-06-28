@@ -1,11 +1,5 @@
 # Chapter 2: Tokens and Embeddings — Comprehensive Study Guide
 
-> **Source:** *Hands-On Large Language Models* by Alammar & Grootendorst  
-> **Level:** AI Engineering / Data Science / ML Interviews  
-> **Coverage:** Every concept, figure, code example, note, and technical term in the chapter
-
----
-
 ## Executive Summary
 
 This chapter establishes the two foundational numerical pillars of modern LLMs: **tokens** (how text is discretized into processable units) and **embeddings** (how those units are mapped into meaningful vector spaces). Without understanding both, you cannot reason clearly about how LLMs work, why they succeed or fail on certain inputs, or how to build applications on top of them.
