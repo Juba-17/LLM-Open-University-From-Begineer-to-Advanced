@@ -72,11 +72,12 @@ In the first section, you'll grasp the foundational concepts of Large Language M
 Key resources include Andrej Karpathy's "Let's Build the GPT Tokenizer," Jay Alammar's "The Illustrated Transformer" and "The Illustrated GPT-2," and 3Blue1Brown's "Visual Intro to Transformers." You'll also explore "nanoGPT" by Karpathy, "Attention? Attention!" by Lilian Weng, various decoding strategies, Karpathy's "Intro to Large Language Models," and top practical and theoretical courses on LLMs. This section provides a blend of theoretical and useful insights, preparing you for the next sections.
 
 ### 1. Articles: ###
+[001].[Attention by Jay Alammar](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models)✅
+[002]. [Attention? Attention! by Lilian Weng](https://lilianweng.github.io/posts/2018-06-24-attention/)   Done 
 
-1. [The Illustrated Transformer by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)  Done
-2. [The Illustrated GPT-2 by Jay Alammar](https://jalammar.github.io/illustrated-gpt2/)     Done 
-3. [Attention? Attention! by Lilian Weng](https://lilianweng.github.io/posts/2018-06-24-attention/)   Done 
-4. [Decoding Strategies in LLMs by Maxime Lebonne](https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html) 
+[003]. [The Illustrated Transformer by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)  Done
+[004]. [The Illustrated GPT-2 by Jay Alammar](https://jalammar.github.io/illustrated-gpt2/)     Done 
+[005]. [Decoding Strategies in LLMs by Maxime Lebonne](https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html) 
 
 ### 2. YouTube Videos: ###
 
